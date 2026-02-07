@@ -1,0 +1,189 @@
+data science:
+it is used to extract the data for the meaningful insights that can learn from the data for the bp
+
+it is used to solve complex problems with the help of math and stat
+
+with the help of machine learning we can perform the predictions
+
+
+Data?---raw collection of data
+
+information of facts
+
+
+types of data analysis:
+
+descriptive analytics(what happened)
+diagnostic analytics(why did it happened)
+predictive analytics(what will happen)
+prescriptive analytics(what to do now)
+
+
+life cycle of project:
+1.understanding the business problem
+2.collecting the data
+3.preprocessing the data
+4.cleaning the data
+5.exploratory data analysis(eda)
+6.feature engineering
+7.model building
+8.model evaluation
+9.deployement
+
+
+streamlit: it is a python framework which is used to build web applications
+
+data science applications:
+
+finance
+medical
+banking
+ecommerce
+
+use cases:
+smm
+sales predictions
+marketing analysis
+drug discovery
+drug prediction
+disease prediction
+weather forecasting
+customer segmentation
+churn prediction
+
+
+roles of ds/ai/ml:
+
+data scientist
+data analyst
+ai engineer
+dl architect
+nlp engineer
+ml engineer
+data entry level
+gen ai architect
+data architect
+ai specialist
+data analyst
+data engineer
+bi analyst
+business analyst
+
+
+skills require to become data scientist/ml/ai:
+
+python
+ml
+stats& math
+dl
+sql
+dv
+powerbi
+r language
+nlp
+tableau
+problem solving
+data extraction
+database management
+
+
+basics of python:
+rules of programming
+variables
+data types
+operators
+comments
+conditional statements
+loopings
+functions
+lambda functions
+identifiers
+pointers
+file handling
+exception handling
+oops
+
+libraries:
+numpy------numerical  calculations
+pandas-----data manipulation
+matplotlib----data viz
+seaborn-----data viz
+plotly----data viz
+scikit-learn---ml predictions
+TensorFlow----dl
+pytorch----dl
+spacy---nlp
+nltk---nlp
+pyspark---big data
+open cv----image recognition/fraud detection
+
+stats and probability
+
+sql
+
+machine learning:
+it learns from the data to predict future values
+
+types of ml:
+supervised learning
+unsupervised learning
+semi supervised learning
+reinforcement
+
+deep learning:
+it mimics like a human brain
+
+neural networks
+
+input layer---->hidden layer---->output layer
+
+nlp:(natural language processing):
+
+it makes computers to understand and to interpret the human languages
+
+Ai:(Artificial intelligence)
+
+gen ai:generative ai
+
+it is used to generate the new content like text,images,audios and even videos with the help of patterns that can learn from the data
+
+gen ai models:
+
+chat gpt
+gemini
+perplexity
+copilot
+gemma
+claude
+grok
+deepseek
+
+generative ai models:(algorithms):
+
+1.GANS(Generative adversarial neural networks)
+2.VAES(variational auto encoders)
+3.Transformers(modern form of nlp)
+
+langchain:it is a framework which is used to integrate llms
+
+Rag(retrieval augumented generation)
+
+
+today task:
+
+ppt presentation
+
+what is data science
+what is ai
+what is ml
+types of data analysis before starting any business problem?
+life cycle of the project
+applications of ds/ai/ml
+what is python programming
+what are the advantages of python
+what are the features of python
+what are the libraries used for ds/ai/ml
+what are the roles we can explore in
+what are the rules of programming
+
+
