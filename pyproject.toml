@@ -1,6 +1,7 @@
 [project]
 name = "Takeitsmart"
 version = "0.1.0"
+package-mode = false
 description = ""
 authors = [
     {name = "gopal-nd",email = "docode999@gmail.com"}
