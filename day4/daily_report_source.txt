@@ -1,4 +1,0 @@
-Total users logged in today: 125
-Total transactions processed: 340
-System uptime: 99.9%
-Errors reported: 3

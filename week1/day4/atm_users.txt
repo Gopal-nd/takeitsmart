@@ -1,0 +1,3 @@
+Gopal,5000
+Rahul,3000
+Anita,8000

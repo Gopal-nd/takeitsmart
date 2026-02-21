@@ -1,0 +1,4 @@
+Company Name: ABC Tech
+Date: {{DATE}}
+Total Employees: {{COUNT}}
+Average Salary: {{AVG_SALARY}}
