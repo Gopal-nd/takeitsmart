@@ -1,0 +1,177 @@
+SQL(Structure query language):
+it is used to communicate with the databases
+
+mainly it used to manage the data whether you want to create,read,update and even delete
+
+sql provides different commands to perform the operations
+
+DDL(data definition language)
+DML(data manipulation language)
+TCL(transaction control language)
+DCL(Data control language)
+DQL(Data query language)
+
+what the purpose of learning sql:
+
+data science & analytics:
+
+it helps to query huge amount of the data and help to generate reports and insights 
+
+website development:
+
+it is very helpful to manage the data(website,transactions etc)
+
+SQL database:
+
+it is nothing but the process where we can create and manage the database
+
+create command to create a database
+
+CREATE database database_name
+
+if you want to see what kind of databases available
+
+show databases
+
+if you want to use any one specific database
+
+use database_name
+
+if you don't want to use that database:
+
+drop database database_name
+
+
+1.DDL(data definition language):
+
+it is used to define the structure of the tables
+
+CREATE--->used to create table/database
+ALTER---->used to modify the table
+DROP---->used to delete the table/database
+TRUNCATE--->used to remove the records but the structure remains
+
+create database database_name
+
+create table table_name(col1 dt,col2 dt----)
+
+2.DML(data manipulation language):
+
+it is used to manipulate the data
+
+INSERT----->it is used to add the data
+UPDATE----->it is used to edit the data
+DELETE------>it is used to remove the data
+
+3.DCL(data control language):
+
+it is mainly used to control the permissions of the database
+
+GRANT----->which is used to give the permissions
+REVOKE----->it is used to remove the permissions
+
+4.TCL(transaction control language):
+
+it is used to manage transactions in the database
+
+COMMIT----->it is used to save the changes permanently
+ROLLBACK---->it is used to undo the changes
+SAVEPOINT---->which is used to create the rollback point
+
+5.DQL(data query language):
+
+SELECT---->it is used to fetch the data
+HAVING clause
+GROUPBY clause
+ORDERBY clause
+
+How sql works:
+
+1.input---->user sends the query what to select and it will parse the data
+
+2.optimization---->used to run the query faster
+
+3.execution--->where the database will run the query
+
+4.output---->where the result send to the user
+
+
+The main components of sql system:
+
+database: A structured collection of data stored in tables in the
+form of rows and columns
+
+Tables: it is used to store the data and keep the data safer
+
+views: A virtual table where we can create some amount of info in it
+
+Joins: which is used to combine the different tables where we have
+the relation
+
+constraints: which is used to give the unique ness to the column
+
+data type in sql:
+it is used to define what kind of the data we stored
+
+Numeric data type(integers,float)
+integers-----whole number +,-(int,bigint,smallint)
+dates--date(y/m/d) time(h,m,s)  date time(y/m/d/h/m/s)
+text---varchar(),char()
+binary---images,videos etc
+
+SQL operators:
+
+where it is used to perform operations on the sql data
+
+1.Arithmetic operators:
+
+it is used to perform mathematical operations
+
+2.Comparision operators:
+
+it is used to compare two expressions
+
+3.Logical operators:
+
+it is used to combine and manipulate the conditions
+
+4.bitwise operators:
+
+it is used to perform on binary values
+
+5.special operators:
+
+it is used to perform on specific condition and for filtering the data
+
+like:between/and,in,exits,not exits,like etc
+
+DBMS(data base management system)----relational data(relation between tables)
+
+task:ER model
+
+
+Assignment:
+
+what is sql explain briefly about it?
+what is the difference between ddl,dml,dcl
+what is data
+what is database
+what is index
+what is joins
+what is a datatype explain different data types in sql
+what is operator explain about different operators available in sql
+what is view
+what are different commands available in the sql
+what is dbms
+what is ER model
+how sql works explain procedure
+what is table
+what is the difference between drop,truncate and delete
+what is entity
+what is attribute
+what is strong and weak entity explain
+what are different types of relationships available
+how to create a database
+how to drop a data base
+
+

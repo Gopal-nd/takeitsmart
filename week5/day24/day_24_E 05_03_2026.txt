@@ -1,0 +1,26 @@
+Structure query language:
+
+ddl(data definition language)
+dml(data manipulation language)
+dcl(data control language)
+dql(data query language)
+tcl(transaction control language)
+
+data base:
+create database database_name
+
+table:
+
+create table table_name(col1 dt,col2 dt,----)
+
+
+create a table departments
+
+dept_id,name,count_emp_dept,dept_mail id
+
+create atleast 10-15 rows and perform all commands
+
+alter,insert,create,drop,truncate,select,where,orderby,update,delete,and,or,
+comparision operators
+
+

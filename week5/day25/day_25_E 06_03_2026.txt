@@ -1,0 +1,282 @@
+Constraints:
+these are the rules which will applied to tabular columns to control what type of data
+can be inserted into the table
+
+these constraints helps us to maintain the data accuracy,data integrity and also
+data consistency in the database
+
+
+Types of sql constraints:
+
+1.not null
+2.unique
+3.primary key
+4.foreign key
+5.check
+6.default
+
+
+1.not null constraint
+
+it helps the column cannot contain null values
+
+create table students(
+id int not null,
+name varchar(50) not null,
+age int
+);
+
+
+insert into students values(101,'Arpita',29),
+(null,'priya',32);
+
+
+we will get the error because id cannot be null
+
+
+
+2.unique constraint:
+
+it helps that all the values in a column are different
+
+ex: phone number , email
+
+create table user(
+user_id int,
+email_id varchar(20) unique
+);
+
+
+insert into users values(101,'abc@gmail.com')
+(102,'xyz@gmail.com'),(103,'abc@gmail.com');
+
+you will get because of email must be unique
+
+
+3.primary key:
+
+it is a combination of not null and unique
+
+it finds each and every row uniquely
+
+create table employee(
+emp_id int primary key,
+name varchar(20),
+address varchar(10),
+salary int
+);
+
+insert into employee(1001,'Amit','Hyderabad',55000),
+(1002,'shreya','Hyderabad',65000),
+(1001,'jhoshna','Hyderabad',72000)
+
+
+4.Foreign key:
+
+it is used to combine two tables
+
+where it helps the referential integrity between the tables
+
+example:
+employee table should link with department table
+
+create table departments(
+dept_id int primary key,
+dept_name varchar(20)
+);
+
+
+create table employee(
+emp_id int primary key,
+name varchar(20),
+dept_id int,
+salary int,
+location varchar(20),
+foreign key(dept_id) references departments(dept_id)
+
+
+insert into departments values(101,'IT'),
+(102,'Hr');
+
+insert into employee values(1,'rajini',101,35000,'hyderabad'),
+(2,'shaziya',105,43000,'chennai');
+
+5.check constraint
+
+it helps to make sure that the values should satisfy the condition
+
+ex: only 4th year students eligible for internship
+
+year>=4
+
+Age must be greater than 18
+
+age>=18
+
+
+create table students(
+id int,
+name varchar(20),
+age int check (age>=18)
+);
+
+insert into students values(101,'shreya',15)
+
+
+6.default constraint:
+
+it assigns a default value if no value is given
+
+create table orders(
+order_id int,
+product_name varchar(20),
+product_category varchar(20) default 'clothing'
+);
+
+insert into orders(order_id,product_name) values(101,'kurti');
+
+
+create table customers(
+cus_id int primary key,
+name varchar(20) not null,
+email varchar(20) unique,
+age int check(age>=18),
+country varchar(20) default 'india'
+);
+
+
+task 1:
+
+create a products table with
+product_id ---->primary key
+product_name---->not null
+price----check>0
+category--->default:'accessories'
+
+
+task 2:
+
+create two tables
+
+department:dept_id(primary key),dept_name
+employee:emp_id(primary key),name,dept_id(foreign key)
+
+
+task 3:
+
+insert 5 records and test different constraint errors
+
+
+
+joins:
+it is used to combine data from two or more tables based on the common column
+
+types of joins:
+1.inner join
+2.left join
+3.full join
+4.self join
+5.cross join
+6.right join
+
+1.inner join:
+
+it returns only the matching records from the both tables
+
+2.left join:
+
+returns the records from the left table matching records from the right table
+if not match it will shows null
+
+3.right join:
+
+returns the records from the right table matching records from the left table
+if not match it will shows null
+
+4.self join:
+
+A table joins with itself
+
+mainly used in employee manager relationships
+
+5.full join:
+
+it returns all the rows from both the tables
+if there is no match shows null
+
+6.cross join:
+
+returns all the possible combinations of rows
+
+example:
+
+employee-5
+departments-2
+
+10 rows will be executed
+
+
+
+SELECT StudentCourse.COURSE_ID, Student.NAME, Student.AGE 
+FROM Student 
+INNER JOIN StudentCourse 
+ON Student.ROLL_NO = StudentCourse.ROLL_NO;
+
+
+
+SELECT Student.NAME,StudentCourse.COURSE_ID 
+FROM Student
+LEFT JOIN StudentCourse 
+ON StudentCourse.ROLL_NO = Student.ROLL_NO;
+
+
+SELECT Student.NAME,StudentCourse.COURSE_ID 
+FROM Student
+RIGHT JOIN StudentCourse 
+ON StudentCourse.ROLL_NO = Student.ROLL_NO;
+
+
+SELECT Student.NAME,StudentCourse.COURSE_ID 
+FROM Student
+FULL JOIN StudentCourse 
+ON StudentCourse.ROLL_NO = Student.ROLL_NO;
+
+
+task:
+
+create two tables
+employee---------->emp_id,name,dept_id,salary,address
+departments-------->dept_id,dept_name
+
+1.find the employee name and department name
+
+2.find the employees who don't belong to any department
+
+3.find the departments without employees
+
+4.find the employee count per department
+
+5.find the highest salary in each department
+
+6.find the department with more than 2 employees
+
+7.find the employees working in the IT department
+
+8.find the employees working in the HR department
+
+9.find the employees working in the finance department
+
+10.find the employees belongs to marketing department
+
+11.find the employees belongs to non it department
+
+
+
+
+
+
+
+
+
+
+
