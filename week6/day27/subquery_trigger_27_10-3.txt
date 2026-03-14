@@ -1,0 +1,223 @@
+sub query:
+a query inside another sql query is called as subquery
+the inner sql query will be exceuted and then outer sql query will be executed
+
+employees:columns like emp_id,emp_name,salary,dept_name
+
+find the employee whose salary is greater than 50000
+
+select emp_name from employees where salary>50000
+
+find the employees who belongs to departments where salary>60000
+
+select emp_name from employees where dept_name in(
+select dept_name from employees where salary>60000);
+
+
+find the employees earning more than the average salary
+
+select emp_name,salary from employees
+where salary>(select avg(salary) from employees)
+
+find the average salary of the employees
+
+select emp_name ,(select avg(salary) as avgsal from employees) from employees
+
+cus_id,cus_name,location------>customers
+prod_id,prod_name,price----->products
+order_id,cus_id,prod_id,amount---->orders
+
+
+1.customers who placed the orders
+
+select cus_name from customers
+where cus_id in
+(select cus_id from orders);
+
+
+2.products that never ordered
+
+select prod_name from products where
+prod_id not in(select prod_id from orders)
+
+3.products that were ordered
+
+select prod_name from products where
+prod_id in(select prod_id from orders)
+
+4.orders with amount greater than average order amount
+
+select amount from orders
+where amount > (select avg(amount) from orders);
+
+5.products priced above average price
+
+select prod_name,price from products
+where price > (select avg(price) from products);
+
+6.most expensive products purchased
+
+select prod_name from products
+where price=(select max(price) from products);
+
+
+
+create table customers(customer_id int,customer_name varchar(20),contact_name varchar(20),
+country varchar(20));
+
+insert into customers values(101,'karthik','kusuma','india'),
+(102,'Ajay','Arjith','srilanka'),
+(103,'jay','jesree','kerala'),
+(104,'abi','akash','australia')
+
+
+create procedure GetCustomersByCountry
+@country varchar(20)
+as
+begin
+select customer_name,contact_name from customers
+where country =@country;
+end;
+
+exec GetCustomersByCountry @country='srilanka';
+
+
+CREATE TABLE users2 (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(100),
+    updated_at DATETIME2
+);
+
+CREATE TRIGGER update_timestamp
+ON users2
+AFTER UPDATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    UPDATE u
+    SET updated_at = SYSDATETIME()
+    FROM users2 u
+    INNER JOIN inserted i ON u.id = i.id;
+END;
+
+INSERT INTO users2 (id, name, email)
+VALUES (1, 'Alice', 'alice@example.com'),
+       (2, 'Bob', 'bob@example.com'),
+       (3, 'Charlie', 'charlie@example.com');
+
+UPDATE users2 SET email = 'alice_new@example.com' WHERE id = 1;
+
+select * from users2;
+
+
+CREATE TABLE users_after (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(100)
+);
+
+CREATE TABLE user_log (
+    log_id INT IDENTITY(1,1) PRIMARY KEY,
+    message VARCHAR(200)
+);
+
+
+
+CREATE TRIGGER trg_after_insert
+ON users_after
+AFTER INSERT
+AS
+BEGIN
+    INSERT INTO user_log(message)
+    SELECT 'User inserted with ID = ' + CAST(id AS VARCHAR)
+    FROM inserted;
+END;
+
+
+INSERT INTO users_after VALUES (1,'John','john@email.com');
+
+select * from users_after;
+
+INSERT INTO users_after VALUES (2,'Jon','jon@email.com');
+
+
+
+CREATE TABLE users_before (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(100)
+);
+
+
+CREATE TRIGGER trg_instead_insert
+ON users_before
+INSTEAD OF INSERT
+AS
+BEGIN
+    PRINT 'Before inserting data';
+
+    INSERT INTO users_before (id,name,email)
+    SELECT id,name,email
+    FROM inserted;
+END;
+
+INSERT INTO users_before VALUES (3,'Alice','alice@email.com');
+
+select * from users_before;
+
+
+
+CREATE TABLE users_mail (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(100)
+);
+
+
+CREATE TRIGGER trg_before_insert_email
+ON users_mail
+INSTEAD OF INSERT
+AS
+BEGIN
+    IF EXISTS (
+        SELECT 1 
+        FROM users_mail u
+        JOIN inserted i ON u.email = i.email
+    )
+    BEGIN
+        PRINT 'Email already exists. Insert not allowed.';
+    END
+    ELSE
+    BEGIN
+        INSERT INTO users_mail(id, name, email)
+        SELECT id, name, email
+        FROM inserted;
+    END
+END;
+
+
+CREATE TRIGGER trg_after_insert_email
+ON users_mail
+AFTER INSERT
+AS
+BEGIN
+    PRINT 'New user with email inserted successfully';
+END;
+
+
+understand about performance tuning and normalization(1 nf,2nf,bcnf,4nf,5nf)
+
+find KPIs on the iris dataset and penguin dataset using SQL
+
+import seaborn as sns
+
+df=sns.load_dataset("penguins")
+
+pengunis=df.to_csv("penguins.csv")
+
+
+
+
+

@@ -1,0 +1,99 @@
+power bi is a tool which is used to build dashboard
+
+it was developed by Microsoft
+
+it is a business intelligence tool for creating interactive dashboards
+
+powerbi helps to analyze the data and to create dashboards for taking
+
+some data driven decisions
+
+why power bi used?
+
+companies can generate huge amount of the data every data
+
+examples:
+
+sales data
+customer data
+marketing campaigns
+website traffic
+leads generation
+
+powerbi helps us:
+
+1.to analyze the large amount of the data
+2.to take some data driven decisions
+3.create dashboards
+4.identify the business trends
+
+
+sales data--->analyze---->dashboards--->decide marketing strategy
+
+components of power bi:
+
+1.power bi desktop
+2.powerbi service(cloud)
+3.powerbi mobile
+4.powerbi gateway
+
+
+data sources supported by power bi
+
+excel
+csv
+sql
+MySQL
+azure etc
+
+key features of power bi:
+
+1.chart requirements
+
+bar chart
+pie chart
+line chart
+gauge chart
+kpi cards
+tables
+
+2.interactive dashboards
+
+users can click on charts to filter the data dynamically
+
+3.real time data
+
+helps to support the live dashboards
+
+4.data transformation:
+
+power query(dax function)
+
+5.data modelling
+
+power bi also helpful to allow relationships between the tables
+
+
+uses cases:
+
+total sales
+best selling products
+region wise products
+
+
+domains:
+ecommerce
+helath care
+finance
+transport
+
+
+
+
+
+
+
+
+
+
+
