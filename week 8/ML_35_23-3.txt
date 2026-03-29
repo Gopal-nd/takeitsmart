@@ -1,0 +1,192 @@
+machine learning: it is a field of artificial intelligence which is used to learn from the past data so that it can easily identify the patterns inside the data
+
+machine learning focusses on developing the models and algorithms that let computers to learn from the data
+
+machine learning is used to predict the future values that learn from the historical data
+
+types of machine learning:
+
+1.supervised learning: it learns from the labelled data(structured data)
+
+types of supervised learning:
+
+1.regression:
+it shows the relationship between independent and dependent variables where the output/target/dependent variable should be continuous
+
+2.classification:where the output is a categorical data(eg:spam/not spam,yes/no)
+
+2.unsupervised learning: it is a type of ml where the model works without labelled data(unstructured data)
+it learns from the patterns
+
+types of unsupervised learning:
+
+1.clustering:which is used to make the data into similar group of elements
+
+2.Association rule learning:
+it is used to understand the frequent repeated items
+
+3.reinforcement:
+
+it is like a feedback learning
+for every right action you will get the reward and
+for every wrong action you will get the penality
+
+
+machine learning components:
+
+data preprocessing:
+
+it is used to clean and keep the data organized and well structured so that we can easily find the more accurate results
+
+exploratory data analysis:
+prepare the data according to business requirements
+we can easily detect the outliers find the correlation identify the null values and duplicates to keep our data very organized
+
+Advantages of data preprocessing:
+
+1.improve the data quality
+2.we can speed up the training process
+3.reduces overfitting problem
+
+
+life cycle of machine learning:
+
+1.problem definition
+
+it is the foundation for the entire lifecycle of ml
+
+in this step we can understand the project objectives, desired outcomes and the scope of the tasks which should be take care of
+
+we require to collaborate with the stakeholders to understand the business goals
+
+clearly get the clarity from the client what are his/her expectations from the data
+
+
+2.data collection:
+
+it is the phase where we can easily take the raw data from different sources so that we can train our model and make the data quality to improve the model performance
+
+3.data cleaning:
+raw data will be messy and unstructured if we use directly we will get poor accuracy
+
+data cleaning techniques are:
+
+null values
+duplicates
+wrong data
+wrong format
+
+data preprocessing:
+
+it is used to standardize the data,scale the values and encode the categorical data
+
+4.exploratory data analysis:
+
+we can identify the patterns and the characteristics of the data
+
+5.feature engineering:
+it is the process which helps the data to transform existing data to capture the relationships and patterns inside the data
+
+6.model selection:
+
+it is very important part to find the model which suits for our business problem
+
+7.model training:
+it is used to train the model in a iterative process so that it improves its model performance
+
+8.model evaluation:
+
+it is the process of accessing how well a machine learning model performs on unseen data by using different metrics
+
+9.model deployement:
+
+by using any one of the framework we will deploy the model and we will maintain the records by creating any ui interface to add the new data and to get the predicted outputs
+
+10.maintaining and monitoring:
+
+after the deployement we need to monitor the data to track the model performance
+
+when ever the model gives any wrong results we need to retrain the model to improve its accuracy
+
+Applications of machine learning:
+
+1.e commerce(recommendation systems)
+
+product suggestions
+
+2.health care
+
+disease prediction
+drug discovery
+patient risk prediction
+
+3.banking & finance
+
+fraud detection
+credit score prediction
+stock market prediction
+
+4.self driving cars
+
+object detection
+
+5.social media
+
+face recognition
+sentiment analysis
+
+6.entertainment(ott platforms)
+
+movies/web series
+
+7.weather forecasting:
+
+rain predictions
+climate changes
+disaster warnings
+
+8.manufacturing
+
+predictive maintanence
+demand forecasting
+new product recommendation
+
+9.business insights
+
+sales prediction
+market trend analysis
+
+10.nlp applications:
+
+chatbots
+summarization
+sentiment analysis
+
+
+Assignment:
+
+what is machine learning?
+what are the different types of machine learning?
+what is difference between ai and ml?
+what is the life cycle of ml?
+what is structured data?
+what is unstructured data?
+what is supervised learning?
+what is unsupervised learning?
+what is model selection?
+how to train the data?
+how to test the data?
+what is confusion matrix?
+what is correlation?
+why regularization techniques are important?
+how do we handle missing values?
+how to detect the outliers?
+what are the advantages of preprocessing?
+what are the different data sources available to collect the data?
+what is feature selection?
+how to maintain and monitor the data?
+what are the different techniques available in supervised learning?
+what are the applications of ml?
+what is the history of machine learning?
+explain about the evolution of ml?
+
