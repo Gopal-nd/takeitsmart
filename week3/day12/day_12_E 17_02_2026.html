@@ -7577,7 +7577,7 @@ a.anchor-link {
     <span class="s2">"Name"</span><span class="p">:[</span><span class="s2">"swathi"</span><span class="p">,</span><span class="s2">"keerthana"</span><span class="p">,</span><span class="s2">"supriya"</span><span class="p">,</span><span class="s2">"supriya"</span><span class="p">,</span><span class="s2">"Ajay"</span><span class="p">,</span><span class="s2">"Manikanta"</span><span class="p">],</span>
     <span class="s2">"Age"</span><span class="p">:[</span><span class="mi">27</span><span class="p">,</span><span class="kc">None</span><span class="p">,</span><span class="mi">22</span><span class="p">,</span><span class="mi">22</span><span class="p">,</span><span class="mi">29</span><span class="p">,</span><span class="mi">32</span><span class="p">],</span>
     <span class="s2">"salary"</span><span class="p">:[</span><span class="mi">50000</span><span class="p">,</span><span class="kc">None</span><span class="p">,</span><span class="mi">45000</span><span class="p">,</span><span class="mi">45000</span><span class="p">,</span><span class="o">-</span><span class="mi">15000</span><span class="p">,</span><span class="o">-</span><span class="mi">25000</span><span class="p">],</span>
-    <span class="s2">"Gender"</span><span class="p">:[</span><span class="s2">"Female"</span><span class="p">,</span><span class="s2">"Female"</span><span class="p">,</span><span class="s2">"F"</span><span class="p">,</span><span class="s2">"F"</span><span class="p">,</span><span class="s2">"M"</span><span class="p">,</span><span class="s2">"M"</span><span class="p">],</span>
+    <span class="s2">"Gender"</span><span class="p">:[</span><span class="s2">"male"</span><span class="p">,</span><span class="s2">"male"</span><span class="p">,</span><span class="s2">"F"</span><span class="p">,</span><span class="s2">"F"</span><span class="p">,</span><span class="s2">"M"</span><span class="p">,</span><span class="s2">"M"</span><span class="p">],</span>
     <span class="s2">"city"</span><span class="p">:[</span><span class="s2">"Hyderabad"</span><span class="p">,</span><span class="s2">"Banglore"</span><span class="p">,</span><span class="kc">None</span><span class="p">,</span><span class="kc">None</span><span class="p">,</span><span class="s2">"Indore"</span><span class="p">,</span><span class="s2">"Noida"</span><span class="p">],</span>
     <span class="s2">"Purchase"</span><span class="p">:[</span><span class="mi">5000</span><span class="p">,</span><span class="mi">2000</span><span class="p">,</span><span class="mi">3000</span><span class="p">,</span><span class="mi">3000</span><span class="p">,</span><span class="mi">3500</span><span class="p">,</span><span class="mi">3800</span><span class="p">],</span>
     <span class="s2">"Joining_date"</span><span class="p">:[</span><span class="s2">"2021-05-10"</span><span class="p">,</span><span class="s2">"2022-01-01"</span><span class="p">,</span><span class="s2">"2023-03-15"</span><span class="p">,</span><span class="s2">"2023-03-15"</span><span class="p">,</span><span class="s2">"2020-07-20"</span><span class="p">,</span><span class="s2">"2022-08-27"</span><span class="p">]</span>
@@ -7657,7 +7657,7 @@ a.anchor-link {
 <td>swathi</td>
 <td>27.0</td>
 <td>50000.0</td>
-<td>Female</td>
+<td>male</td>
 <td>Hyderabad</td>
 <td>5000</td>
 <td>2021-05-10</td>
@@ -7668,7 +7668,7 @@ a.anchor-link {
 <td>keerthana</td>
 <td>NaN</td>
 <td>NaN</td>
-<td>Female</td>
+<td>male</td>
 <td>Banglore</td>
 <td>2000</td>
 <td>2022-01-01</td>
@@ -7748,7 +7748,7 @@ a.anchor-link {
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">'Gender'</span><span class="p">]</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s1">'Gender'</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">({</span>
     <span class="s2">"m"</span><span class="p">:</span><span class="s2">"male"</span><span class="p">,</span>
-    <span class="s2">"f"</span><span class="p">:</span><span class="s2">"female"</span>
+    <span class="s2">"f"</span><span class="p">:</span><span class="s2">"male"</span>
 <span class="p">})</span>
 </pre></div>
 </div>
@@ -7811,7 +7811,7 @@ a.anchor-link {
 <td>swathi</td>
 <td>27.0</td>
 <td>50000.0</td>
-<td>female</td>
+<td>male</td>
 <td>Hyderabad</td>
 <td>5000</td>
 <td>2021-05-10</td>
@@ -7822,7 +7822,7 @@ a.anchor-link {
 <td>keerthana</td>
 <td>NaN</td>
 <td>NaN</td>
-<td>female</td>
+<td>male</td>
 <td>Banglore</td>
 <td>2000</td>
 <td>2022-01-01</td>
@@ -7833,7 +7833,7 @@ a.anchor-link {
 <td>supriya</td>
 <td>22.0</td>
 <td>45000.0</td>
-<td>female</td>
+<td>male</td>
 <td>None</td>
 <td>3000</td>
 <td>2023-03-15</td>
@@ -7844,7 +7844,7 @@ a.anchor-link {
 <td>supriya</td>
 <td>22.0</td>
 <td>45000.0</td>
-<td>female</td>
+<td>male</td>
 <td>None</td>
 <td>3000</td>
 <td>2023-03-15</td>
@@ -8021,7 +8021,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>swathi</td>
 <td>27.0</td>
 <td>50000.0</td>
-<td>female</td>
+<td>male</td>
 <td>Hyderabad</td>
 <td>5000</td>
 <td>2021-05-10</td>
@@ -8032,7 +8032,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>keerthana</td>
 <td>26.4</td>
 <td>NaN</td>
-<td>female</td>
+<td>male</td>
 <td>Banglore</td>
 <td>2000</td>
 <td>2022-01-01</td>
@@ -8043,7 +8043,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>supriya</td>
 <td>22.0</td>
 <td>45000.0</td>
-<td>female</td>
+<td>male</td>
 <td>None</td>
 <td>3000</td>
 <td>2023-03-15</td>
@@ -8054,7 +8054,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>supriya</td>
 <td>22.0</td>
 <td>45000.0</td>
-<td>female</td>
+<td>male</td>
 <td>None</td>
 <td>3000</td>
 <td>2023-03-15</td>
@@ -8158,7 +8158,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>swathi</td>
 <td>27.0</td>
 <td>50000.0</td>
-<td>female</td>
+<td>male</td>
 <td>Hyderabad</td>
 <td>5000</td>
 <td>2021-05-10</td>
@@ -8169,7 +8169,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>keerthana</td>
 <td>26.4</td>
 <td>NaN</td>
-<td>female</td>
+<td>male</td>
 <td>Banglore</td>
 <td>2000</td>
 <td>2022-01-01</td>
@@ -8180,7 +8180,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>supriya</td>
 <td>22.0</td>
 <td>45000.0</td>
-<td>female</td>
+<td>male</td>
 <td>None</td>
 <td>3000</td>
 <td>2023-03-15</td>
@@ -8191,7 +8191,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>supriya</td>
 <td>22.0</td>
 <td>45000.0</td>
-<td>female</td>
+<td>male</td>
 <td>None</td>
 <td>3000</td>
 <td>2023-03-15</td>
@@ -8314,7 +8314,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>swathi</td>
 <td>27.0</td>
 <td>50000.0</td>
-<td>female</td>
+<td>male</td>
 <td>Hyderabad</td>
 <td>5000</td>
 <td>2021-05-10</td>
@@ -8325,7 +8325,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>keerthana</td>
 <td>26.4</td>
 <td>45000.0</td>
-<td>female</td>
+<td>male</td>
 <td>Banglore</td>
 <td>2000</td>
 <td>2022-01-01</td>
@@ -8336,7 +8336,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>supriya</td>
 <td>22.0</td>
 <td>45000.0</td>
-<td>female</td>
+<td>male</td>
 <td>None</td>
 <td>3000</td>
 <td>2023-03-15</td>
@@ -8347,7 +8347,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>supriya</td>
 <td>22.0</td>
 <td>45000.0</td>
-<td>female</td>
+<td>male</td>
 <td>None</td>
 <td>3000</td>
 <td>2023-03-15</td>
@@ -8510,7 +8510,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>swathi</td>
 <td>27.0</td>
 <td>50000.0</td>
-<td>female</td>
+<td>male</td>
 <td>Hyderabad</td>
 <td>5000</td>
 <td>2021-05-10</td>
@@ -8521,7 +8521,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>keerthana</td>
 <td>26.4</td>
 <td>45000.0</td>
-<td>female</td>
+<td>male</td>
 <td>Banglore</td>
 <td>2000</td>
 <td>2022-01-01</td>
@@ -8532,7 +8532,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>supriya</td>
 <td>22.0</td>
 <td>45000.0</td>
-<td>female</td>
+<td>male</td>
 <td>Banglore</td>
 <td>3000</td>
 <td>2023-03-15</td>
@@ -8543,7 +8543,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <td>supriya</td>
 <td>22.0</td>
 <td>45000.0</td>
-<td>female</td>
+<td>male</td>
 <td>Banglore</td>
 <td>3000</td>
 <td>2023-03-15</td>
@@ -8969,7 +8969,7 @@ Name: join_day, dtype: object</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="mf">1.</span><span class="n">remove</span> <span class="n">duplicates</span> <span class="n">orders</span><span class="p">(</span><span class="n">order_id</span><span class="p">)</span>
-<span class="mf">2.</span><span class="n">fix</span> <span class="n">the</span> <span class="n">gender</span> <span class="n">column</span> <span class="n">m</span><span class="o">---</span><span class="n">male</span><span class="p">,</span><span class="n">f</span><span class="o">--</span><span class="n">female</span>
+<span class="mf">2.</span><span class="n">fix</span> <span class="n">the</span> <span class="n">gender</span> <span class="n">column</span> <span class="n">m</span><span class="o">---</span><span class="n">male</span><span class="p">,</span><span class="n">f</span><span class="o">--</span><span class="n">male</span>
 <span class="mf">3.</span><span class="n">handle</span> <span class="n">age</span> <span class="n">issues</span>
 <span class="mf">4.</span><span class="n">fill</span> <span class="n">the</span> <span class="n">missing</span> <span class="n">values</span> <span class="n">on</span> <span class="n">the</span> <span class="n">city</span> <span class="n">column</span> <span class="n">by</span> <span class="n">using</span> <span class="n">mode</span>
 <span class="mf">5.</span><span class="n">standardize</span> <span class="n">product</span> <span class="n">category</span>

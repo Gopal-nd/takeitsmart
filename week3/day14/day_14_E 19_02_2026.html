@@ -7552,7 +7552,7 @@ a.anchor-link {
 <span class="n">data</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
     <span class="s2">"Customer_id"</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span>
     <span class="s2">"Age"</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">35</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="n">n</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">),</span>
-    <span class="s2">"Gender"</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">([</span><span class="s2">"Male"</span><span class="p">,</span><span class="s2">"Female"</span><span class="p">],</span><span class="n">n</span><span class="p">),</span>
+    <span class="s2">"Gender"</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">([</span><span class="s2">"Male"</span><span class="p">,</span><span class="s2">"male"</span><span class="p">],</span><span class="n">n</span><span class="p">),</span>
     <span class="s2">"Income"</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">50000</span><span class="p">,</span><span class="mi">15000</span><span class="p">,</span><span class="n">n</span><span class="p">),</span>
     <span class="s2">"Spending_Score"</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="n">n</span><span class="p">),</span>
     <span class="s2">"Region"</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">([</span><span class="s2">"North"</span><span class="p">,</span><span class="s2">"South"</span><span class="p">,</span><span class="s2">"East"</span><span class="p">,</span><span class="s2">"West"</span><span class="p">],</span><span class="n">n</span><span class="p">),</span>
@@ -7641,7 +7641,7 @@ a.anchor-link {
 <th>1</th>
 <td>2</td>
 <td>33</td>
-<td>Female</td>
+<td>male</td>
 <td>52770.204588</td>
 <td>48.820930</td>
 <td>East</td>
@@ -7671,7 +7671,7 @@ a.anchor-link {
 <th>3</th>
 <td>4</td>
 <td>50</td>
-<td>Female</td>
+<td>male</td>
 <td>35425.789422</td>
 <td>29.458705</td>
 <td>West</td>
@@ -7716,7 +7716,7 @@ a.anchor-link {
 <th>995</th>
 <td>996</td>
 <td>32</td>
-<td>Female</td>
+<td>male</td>
 <td>65528.740021</td>
 <td>43.321159</td>
 <td>West</td>
@@ -7746,7 +7746,7 @@ a.anchor-link {
 <th>997</th>
 <td>998</td>
 <td>41</td>
-<td>Female</td>
+<td>male</td>
 <td>36057.337097</td>
 <td>56.858950</td>
 <td>North</td>
@@ -7868,7 +7868,7 @@ a.anchor-link {
 <th>1</th>
 <td>2</td>
 <td>33</td>
-<td>Female</td>
+<td>male</td>
 <td>52770.204588</td>
 <td>48.820930</td>
 <td>East</td>
@@ -7898,7 +7898,7 @@ a.anchor-link {
 <th>3</th>
 <td>4</td>
 <td>50</td>
-<td>Female</td>
+<td>male</td>
 <td>35425.789422</td>
 <td>29.458705</td>
 <td>West</td>
@@ -7989,7 +7989,7 @@ a.anchor-link {
 <th>995</th>
 <td>996</td>
 <td>32</td>
-<td>Female</td>
+<td>male</td>
 <td>65528.740021</td>
 <td>43.321159</td>
 <td>West</td>
@@ -8019,7 +8019,7 @@ a.anchor-link {
 <th>997</th>
 <td>998</td>
 <td>41</td>
-<td>Female</td>
+<td>male</td>
 <td>36057.337097</td>
 <td>56.858950</td>
 <td>North</td>
@@ -8455,7 +8455,7 @@ memory usage: 78.3+ KB
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>array(['Male', 'Female'], dtype=object)</pre>
+<pre>array(['Male', 'male'], dtype=object)</pre>
 </div>
 </div>
 </div>
@@ -8688,7 +8688,7 @@ dtype: int64</pre>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[53]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>0    Female
+<pre>0    male
 Name: Gender, dtype: object</pre>
 </div>
 </div>

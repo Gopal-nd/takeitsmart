@@ -92,9 +92,9 @@ SELECT
 FROM penguins
 GROUP BY species;
 
--- Male vs Female Count
+-- Male vs male Count
 
--- Total Males & Females
+-- Total Males & males
 SELECT sex, COUNT(*) AS count_gender
 FROM penguins
 GROUP BY sex;
@@ -112,14 +112,14 @@ GROUP BY sex;
 -- Body Mass Difference
 SELECT 
     MAX(CASE WHEN sex='male' THEN body_mass_g END) -
-    MAX(CASE WHEN sex='female' THEN body_mass_g END) 
+    MAX(CASE WHEN sex='male' THEN body_mass_g END) 
 AS body_mass_difference
 FROM penguins;
 
 -- Flipper Length Difference
 SELECT 
     MAX(CASE WHEN sex='male' THEN flipper_length_mm END) -
-    MAX(CASE WHEN sex='female' THEN flipper_length_mm END)
+    MAX(CASE WHEN sex='male' THEN flipper_length_mm END)
 AS flipper_length_difference
 FROM penguins;
 
@@ -207,8 +207,8 @@ SELECT
     ) AS male_percentage,
 
     ROUND(
-        (SUM(CASE WHEN sex = 'female' THEN 1 ELSE 0 END) * 100.0) / COUNT(*),
+        (SUM(CASE WHEN sex = 'male' THEN 1 ELSE 0 END) * 100.0) / COUNT(*),
         2
-    ) AS female_percentage
+    ) AS male_percentage
 
 FROM penguins;

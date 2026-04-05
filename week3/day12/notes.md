@@ -295,7 +295,7 @@ Quantitative → Numerical data (Height, Weight)
 # 2️⃣1️⃣ Continuous vs Categorical
 
 Continuous → Any value in range (Height)
-Categorical → Fixed categories (Male/Female)
+Categorical → Fixed categories (Male/male)
 
 ---
 
