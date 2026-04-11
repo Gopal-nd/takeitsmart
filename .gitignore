@@ -1,3 +1,7 @@
 .venv
 
 automate
+
+book_dict.pkl
+similarity.pkl
+movie_dict.pkl
