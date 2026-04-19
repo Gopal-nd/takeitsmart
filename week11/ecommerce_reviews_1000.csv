@@ -1,0 +1,1001 @@
+review_id,product,rating,review_text
+1,Fitness Tracker,2,Exceeded my expectations!
+2,Fitness Tracker,4,Good value for money.
+3,Fitness Tracker,1,Battery life could be better.
+4,Wireless Earbuds,5,"Average product, expected better."
+5,Smartphone Case,4,"Five stars, very happy with this purchase."
+6,Mechanical Keyboard,4,"Five stars, very happy with this purchase."
+7,Smartphone Case,2,Works as advertised.
+8,Fitness Tracker,2,Battery life could be better.
+9,Gaming Mouse,5,"Amazing performance, highly recommend."
+10,Wireless Earbuds,1,Would not buy again.
+11,Fitness Tracker,1,"Average product, expected better."
+12,Smartwatch,1,Good value for money.
+13,Portable Charger,5,Would not buy again.
+14,Mechanical Keyboard,4,Battery life could be better.
+15,Gaming Mouse,1,"Amazing performance, highly recommend."
+16,Gaming Mouse,1,Exceeded my expectations!
+17,Smartwatch,2,"Average product, expected better."
+18,Fitness Tracker,2,"Average product, expected better."
+19,Gaming Mouse,4,"Average product, expected better."
+20,Smartwatch,5,"Five stars, very happy with this purchase."
+21,Mechanical Keyboard,1,"Five stars, very happy with this purchase."
+22,Bluetooth Speaker,4,Not satisfied with the build quality.
+23,Bluetooth Speaker,3,Exceeded my expectations!
+24,Portable Charger,3,Excellent quality and fast delivery.
+25,Mechanical Keyboard,2,Not satisfied with the build quality.
+26,Laptop Stand,4,Would not buy again.
+27,Wireless Earbuds,3,Battery life could be better.
+28,Mechanical Keyboard,3,Good value for money.
+29,Laptop Stand,5,"Five stars, very happy with this purchase."
+30,Smartphone Case,2,Exceeded my expectations!
+31,Wireless Earbuds,3,Battery life could be better.
+32,Fitness Tracker,1,"Amazing performance, highly recommend."
+33,LED Monitor,2,Works as advertised.
+34,Gaming Mouse,3,Works as advertised.
+35,Wireless Earbuds,3,Would not buy again.
+36,Gaming Mouse,1,"Amazing performance, highly recommend."
+37,Wireless Earbuds,3,Works as advertised.
+38,Fitness Tracker,5,"Amazing performance, highly recommend."
+39,Smartphone Case,5,Good value for money.
+40,Laptop Stand,4,Not satisfied with the build quality.
+41,Fitness Tracker,2,"Amazing performance, highly recommend."
+42,Wireless Earbuds,5,"Amazing performance, highly recommend."
+43,Bluetooth Speaker,4,Works as advertised.
+44,Smartphone Case,5,Not satisfied with the build quality.
+45,Bluetooth Speaker,4,Excellent quality and fast delivery.
+46,Wireless Earbuds,5,Not satisfied with the build quality.
+47,Smartwatch,2,Battery life could be better.
+48,Fitness Tracker,5,Not satisfied with the build quality.
+49,Fitness Tracker,4,"Average product, expected better."
+50,Gaming Mouse,3,Not satisfied with the build quality.
+51,Smartwatch,2,Would not buy again.
+52,Smartphone Case,4,Good value for money.
+53,LED Monitor,4,"Amazing performance, highly recommend."
+54,Laptop Stand,2,Excellent quality and fast delivery.
+55,Bluetooth Speaker,2,Excellent quality and fast delivery.
+56,Mechanical Keyboard,5,"Average product, expected better."
+57,Gaming Mouse,3,Not satisfied with the build quality.
+58,Laptop Stand,5,Exceeded my expectations!
+59,Fitness Tracker,5,"Average product, expected better."
+60,Bluetooth Speaker,1,Would not buy again.
+61,Mechanical Keyboard,1,Battery life could be better.
+62,Gaming Mouse,5,Excellent quality and fast delivery.
+63,Bluetooth Speaker,5,"Average product, expected better."
+64,Mechanical Keyboard,2,Works as advertised.
+65,Portable Charger,1,Excellent quality and fast delivery.
+66,Smartphone Case,3,"Amazing performance, highly recommend."
+67,Bluetooth Speaker,5,Excellent quality and fast delivery.
+68,Smartwatch,2,"Amazing performance, highly recommend."
+69,Gaming Mouse,4,"Average product, expected better."
+70,LED Monitor,1,"Average product, expected better."
+71,Fitness Tracker,3,Battery life could be better.
+72,LED Monitor,2,Battery life could be better.
+73,Gaming Mouse,4,Not satisfied with the build quality.
+74,Gaming Mouse,4,Battery life could be better.
+75,Portable Charger,3,Excellent quality and fast delivery.
+76,Smartwatch,3,"Average product, expected better."
+77,Portable Charger,4,"Amazing performance, highly recommend."
+78,Laptop Stand,1,Exceeded my expectations!
+79,Mechanical Keyboard,3,Good value for money.
+80,Fitness Tracker,1,"Average product, expected better."
+81,Portable Charger,2,Excellent quality and fast delivery.
+82,LED Monitor,3,Works as advertised.
+83,LED Monitor,2,Battery life could be better.
+84,Mechanical Keyboard,1,Works as advertised.
+85,Wireless Earbuds,3,"Five stars, very happy with this purchase."
+86,Smartwatch,2,Would not buy again.
+87,Smartwatch,2,Works as advertised.
+88,Gaming Mouse,3,Works as advertised.
+89,LED Monitor,2,Excellent quality and fast delivery.
+90,Wireless Earbuds,1,Not satisfied with the build quality.
+91,Wireless Earbuds,2,"Amazing performance, highly recommend."
+92,Portable Charger,2,"Five stars, very happy with this purchase."
+93,Gaming Mouse,3,Good value for money.
+94,Gaming Mouse,3,Battery life could be better.
+95,Laptop Stand,2,"Average product, expected better."
+96,Laptop Stand,5,Not satisfied with the build quality.
+97,Fitness Tracker,2,Would not buy again.
+98,Gaming Mouse,5,"Amazing performance, highly recommend."
+99,Smartphone Case,3,Not satisfied with the build quality.
+100,Fitness Tracker,2,Would not buy again.
+101,Portable Charger,4,Not satisfied with the build quality.
+102,Mechanical Keyboard,3,"Average product, expected better."
+103,LED Monitor,5,Battery life could be better.
+104,Bluetooth Speaker,5,"Five stars, very happy with this purchase."
+105,Laptop Stand,2,Excellent quality and fast delivery.
+106,Wireless Earbuds,2,Exceeded my expectations!
+107,Mechanical Keyboard,4,"Average product, expected better."
+108,Smartphone Case,2,Excellent quality and fast delivery.
+109,Bluetooth Speaker,4,Would not buy again.
+110,Smartphone Case,3,Exceeded my expectations!
+111,Bluetooth Speaker,5,"Amazing performance, highly recommend."
+112,Portable Charger,5,Works as advertised.
+113,Laptop Stand,2,Works as advertised.
+114,Bluetooth Speaker,5,"Average product, expected better."
+115,Laptop Stand,3,Would not buy again.
+116,Fitness Tracker,5,"Average product, expected better."
+117,Bluetooth Speaker,3,"Five stars, very happy with this purchase."
+118,LED Monitor,2,Would not buy again.
+119,Smartwatch,1,Good value for money.
+120,Gaming Mouse,3,Battery life could be better.
+121,Fitness Tracker,5,"Average product, expected better."
+122,Laptop Stand,4,Excellent quality and fast delivery.
+123,Wireless Earbuds,5,Not satisfied with the build quality.
+124,Fitness Tracker,3,Battery life could be better.
+125,Laptop Stand,2,Battery life could be better.
+126,LED Monitor,3,Works as advertised.
+127,Portable Charger,2,"Five stars, very happy with this purchase."
+128,Mechanical Keyboard,5,Exceeded my expectations!
+129,Portable Charger,4,Good value for money.
+130,Smartphone Case,3,"Average product, expected better."
+131,Fitness Tracker,1,Works as advertised.
+132,Smartphone Case,3,"Five stars, very happy with this purchase."
+133,Wireless Earbuds,2,Not satisfied with the build quality.
+134,Portable Charger,2,Excellent quality and fast delivery.
+135,Smartphone Case,4,Good value for money.
+136,Wireless Earbuds,4,"Average product, expected better."
+137,Laptop Stand,4,"Amazing performance, highly recommend."
+138,Smartphone Case,2,"Amazing performance, highly recommend."
+139,Bluetooth Speaker,3,Exceeded my expectations!
+140,Gaming Mouse,5,Exceeded my expectations!
+141,Wireless Earbuds,2,Battery life could be better.
+142,Laptop Stand,5,Not satisfied with the build quality.
+143,Bluetooth Speaker,3,Would not buy again.
+144,Laptop Stand,2,Works as advertised.
+145,LED Monitor,5,Good value for money.
+146,Wireless Earbuds,5,"Five stars, very happy with this purchase."
+147,Portable Charger,1,Battery life could be better.
+148,Wireless Earbuds,5,Works as advertised.
+149,Bluetooth Speaker,4,"Average product, expected better."
+150,Bluetooth Speaker,1,Battery life could be better.
+151,Portable Charger,2,"Amazing performance, highly recommend."
+152,LED Monitor,1,"Average product, expected better."
+153,Mechanical Keyboard,4,"Amazing performance, highly recommend."
+154,Smartwatch,3,Battery life could be better.
+155,Laptop Stand,4,Good value for money.
+156,Gaming Mouse,5,Not satisfied with the build quality.
+157,Wireless Earbuds,1,Battery life could be better.
+158,LED Monitor,4,"Amazing performance, highly recommend."
+159,Gaming Mouse,5,Not satisfied with the build quality.
+160,Bluetooth Speaker,2,"Amazing performance, highly recommend."
+161,Smartphone Case,2,Battery life could be better.
+162,Mechanical Keyboard,1,Not satisfied with the build quality.
+163,Gaming Mouse,5,Works as advertised.
+164,Gaming Mouse,3,"Five stars, very happy with this purchase."
+165,Bluetooth Speaker,5,"Five stars, very happy with this purchase."
+166,LED Monitor,1,"Five stars, very happy with this purchase."
+167,Smartphone Case,4,"Average product, expected better."
+168,Gaming Mouse,3,Good value for money.
+169,Laptop Stand,3,"Five stars, very happy with this purchase."
+170,Wireless Earbuds,2,Exceeded my expectations!
+171,Portable Charger,5,Good value for money.
+172,Smartwatch,5,"Average product, expected better."
+173,Gaming Mouse,3,Would not buy again.
+174,Mechanical Keyboard,2,"Amazing performance, highly recommend."
+175,Fitness Tracker,2,Good value for money.
+176,Smartwatch,1,Works as advertised.
+177,Mechanical Keyboard,2,"Amazing performance, highly recommend."
+178,Smartphone Case,2,"Five stars, very happy with this purchase."
+179,Wireless Earbuds,2,Exceeded my expectations!
+180,Mechanical Keyboard,1,Battery life could be better.
+181,Portable Charger,4,Good value for money.
+182,LED Monitor,3,"Five stars, very happy with this purchase."
+183,Bluetooth Speaker,1,Battery life could be better.
+184,Gaming Mouse,1,"Five stars, very happy with this purchase."
+185,Fitness Tracker,2,"Amazing performance, highly recommend."
+186,LED Monitor,3,"Five stars, very happy with this purchase."
+187,Portable Charger,2,Not satisfied with the build quality.
+188,Wireless Earbuds,5,Good value for money.
+189,Mechanical Keyboard,5,"Average product, expected better."
+190,Portable Charger,3,Excellent quality and fast delivery.
+191,LED Monitor,1,Not satisfied with the build quality.
+192,Smartphone Case,5,Battery life could be better.
+193,Mechanical Keyboard,2,"Five stars, very happy with this purchase."
+194,Fitness Tracker,5,Excellent quality and fast delivery.
+195,Smartwatch,5,"Five stars, very happy with this purchase."
+196,Laptop Stand,2,Battery life could be better.
+197,Bluetooth Speaker,5,Good value for money.
+198,Portable Charger,4,"Five stars, very happy with this purchase."
+199,Fitness Tracker,5,Would not buy again.
+200,LED Monitor,2,"Five stars, very happy with this purchase."
+201,Mechanical Keyboard,2,Works as advertised.
+202,Smartwatch,5,"Five stars, very happy with this purchase."
+203,Wireless Earbuds,5,Excellent quality and fast delivery.
+204,Gaming Mouse,2,Not satisfied with the build quality.
+205,Smartwatch,5,"Amazing performance, highly recommend."
+206,Wireless Earbuds,1,"Amazing performance, highly recommend."
+207,Portable Charger,1,Not satisfied with the build quality.
+208,LED Monitor,5,Battery life could be better.
+209,Smartwatch,2,"Average product, expected better."
+210,Wireless Earbuds,2,Battery life could be better.
+211,Smartwatch,5,Not satisfied with the build quality.
+212,LED Monitor,5,Exceeded my expectations!
+213,Gaming Mouse,1,"Amazing performance, highly recommend."
+214,Fitness Tracker,5,Works as advertised.
+215,Smartwatch,4,"Average product, expected better."
+216,Wireless Earbuds,3,Exceeded my expectations!
+217,Smartwatch,1,"Amazing performance, highly recommend."
+218,Wireless Earbuds,4,Good value for money.
+219,LED Monitor,1,Battery life could be better.
+220,LED Monitor,1,Not satisfied with the build quality.
+221,Smartwatch,3,Would not buy again.
+222,Bluetooth Speaker,3,Battery life could be better.
+223,Gaming Mouse,4,"Amazing performance, highly recommend."
+224,LED Monitor,5,Works as advertised.
+225,Smartphone Case,5,Not satisfied with the build quality.
+226,Fitness Tracker,5,"Average product, expected better."
+227,Wireless Earbuds,2,"Average product, expected better."
+228,Wireless Earbuds,1,Not satisfied with the build quality.
+229,LED Monitor,4,Works as advertised.
+230,Gaming Mouse,2,Battery life could be better.
+231,LED Monitor,1,Excellent quality and fast delivery.
+232,Portable Charger,3,Good value for money.
+233,Smartphone Case,5,Would not buy again.
+234,Gaming Mouse,3,"Average product, expected better."
+235,LED Monitor,5,"Amazing performance, highly recommend."
+236,Bluetooth Speaker,3,"Amazing performance, highly recommend."
+237,Portable Charger,2,Exceeded my expectations!
+238,Laptop Stand,5,Not satisfied with the build quality.
+239,LED Monitor,2,"Average product, expected better."
+240,Fitness Tracker,4,"Average product, expected better."
+241,Smartwatch,1,"Average product, expected better."
+242,Portable Charger,5,"Average product, expected better."
+243,Bluetooth Speaker,1,"Amazing performance, highly recommend."
+244,Portable Charger,4,Excellent quality and fast delivery.
+245,Fitness Tracker,4,Works as advertised.
+246,Fitness Tracker,4,Battery life could be better.
+247,Laptop Stand,5,Battery life could be better.
+248,Bluetooth Speaker,5,Works as advertised.
+249,Portable Charger,2,Excellent quality and fast delivery.
+250,Smartphone Case,3,Good value for money.
+251,Wireless Earbuds,5,Excellent quality and fast delivery.
+252,Gaming Mouse,3,Would not buy again.
+253,Fitness Tracker,1,Works as advertised.
+254,Fitness Tracker,2,Good value for money.
+255,Gaming Mouse,2,Would not buy again.
+256,Mechanical Keyboard,5,Works as advertised.
+257,Gaming Mouse,5,"Five stars, very happy with this purchase."
+258,Portable Charger,4,Excellent quality and fast delivery.
+259,Laptop Stand,4,"Five stars, very happy with this purchase."
+260,Gaming Mouse,4,Good value for money.
+261,Smartwatch,4,Would not buy again.
+262,LED Monitor,2,Excellent quality and fast delivery.
+263,Gaming Mouse,2,Not satisfied with the build quality.
+264,Smartphone Case,1,Excellent quality and fast delivery.
+265,Wireless Earbuds,4,Good value for money.
+266,Wireless Earbuds,1,Works as advertised.
+267,Mechanical Keyboard,1,Not satisfied with the build quality.
+268,Fitness Tracker,2,Not satisfied with the build quality.
+269,Mechanical Keyboard,2,Excellent quality and fast delivery.
+270,Bluetooth Speaker,3,Not satisfied with the build quality.
+271,Fitness Tracker,2,"Five stars, very happy with this purchase."
+272,Mechanical Keyboard,2,Excellent quality and fast delivery.
+273,Mechanical Keyboard,2,Not satisfied with the build quality.
+274,Laptop Stand,4,Would not buy again.
+275,Bluetooth Speaker,2,"Amazing performance, highly recommend."
+276,Gaming Mouse,2,Good value for money.
+277,LED Monitor,5,Excellent quality and fast delivery.
+278,Mechanical Keyboard,1,Battery life could be better.
+279,Smartphone Case,4,"Five stars, very happy with this purchase."
+280,Smartphone Case,5,Battery life could be better.
+281,Mechanical Keyboard,3,"Average product, expected better."
+282,Wireless Earbuds,2,"Amazing performance, highly recommend."
+283,LED Monitor,3,"Average product, expected better."
+284,Smartphone Case,3,Exceeded my expectations!
+285,LED Monitor,1,Battery life could be better.
+286,Fitness Tracker,5,Excellent quality and fast delivery.
+287,Mechanical Keyboard,2,Good value for money.
+288,LED Monitor,1,"Amazing performance, highly recommend."
+289,Bluetooth Speaker,2,"Average product, expected better."
+290,Smartwatch,3,"Five stars, very happy with this purchase."
+291,Fitness Tracker,4,"Amazing performance, highly recommend."
+292,Mechanical Keyboard,3,Battery life could be better.
+293,Bluetooth Speaker,3,"Five stars, very happy with this purchase."
+294,Portable Charger,5,"Average product, expected better."
+295,Laptop Stand,1,Excellent quality and fast delivery.
+296,Wireless Earbuds,1,Would not buy again.
+297,Bluetooth Speaker,2,Works as advertised.
+298,LED Monitor,4,Would not buy again.
+299,Wireless Earbuds,1,Would not buy again.
+300,Mechanical Keyboard,5,Not satisfied with the build quality.
+301,Smartwatch,1,Would not buy again.
+302,Smartphone Case,4,Works as advertised.
+303,LED Monitor,3,Works as advertised.
+304,Smartphone Case,1,"Amazing performance, highly recommend."
+305,Portable Charger,4,Battery life could be better.
+306,Smartphone Case,2,"Amazing performance, highly recommend."
+307,LED Monitor,4,Battery life could be better.
+308,LED Monitor,2,Not satisfied with the build quality.
+309,Gaming Mouse,2,Exceeded my expectations!
+310,Laptop Stand,2,Works as advertised.
+311,Laptop Stand,1,"Amazing performance, highly recommend."
+312,Bluetooth Speaker,4,Battery life could be better.
+313,Wireless Earbuds,4,Not satisfied with the build quality.
+314,Smartphone Case,3,Would not buy again.
+315,Fitness Tracker,4,Battery life could be better.
+316,Smartphone Case,1,Would not buy again.
+317,Bluetooth Speaker,3,Good value for money.
+318,Bluetooth Speaker,4,"Amazing performance, highly recommend."
+319,Gaming Mouse,4,Would not buy again.
+320,Smartwatch,5,Battery life could be better.
+321,Gaming Mouse,3,Excellent quality and fast delivery.
+322,LED Monitor,2,Would not buy again.
+323,Smartphone Case,3,Works as advertised.
+324,Smartphone Case,2,"Five stars, very happy with this purchase."
+325,Bluetooth Speaker,4,"Five stars, very happy with this purchase."
+326,Smartphone Case,5,"Average product, expected better."
+327,LED Monitor,1,Exceeded my expectations!
+328,LED Monitor,5,Not satisfied with the build quality.
+329,Smartphone Case,2,Excellent quality and fast delivery.
+330,Portable Charger,4,Good value for money.
+331,Bluetooth Speaker,5,Would not buy again.
+332,Smartwatch,4,"Average product, expected better."
+333,Mechanical Keyboard,3,"Five stars, very happy with this purchase."
+334,Portable Charger,4,Would not buy again.
+335,LED Monitor,1,Not satisfied with the build quality.
+336,Smartwatch,2,Not satisfied with the build quality.
+337,Gaming Mouse,3,Good value for money.
+338,Laptop Stand,3,"Amazing performance, highly recommend."
+339,Wireless Earbuds,1,Good value for money.
+340,Wireless Earbuds,2,Battery life could be better.
+341,Gaming Mouse,4,Would not buy again.
+342,Gaming Mouse,5,Works as advertised.
+343,Smartphone Case,2,Works as advertised.
+344,Wireless Earbuds,2,Good value for money.
+345,Gaming Mouse,5,Works as advertised.
+346,Laptop Stand,3,Would not buy again.
+347,Laptop Stand,3,Works as advertised.
+348,Wireless Earbuds,5,Battery life could be better.
+349,Laptop Stand,4,Not satisfied with the build quality.
+350,LED Monitor,4,Would not buy again.
+351,Gaming Mouse,1,Good value for money.
+352,Wireless Earbuds,1,Exceeded my expectations!
+353,Smartphone Case,3,Excellent quality and fast delivery.
+354,Gaming Mouse,3,Exceeded my expectations!
+355,Laptop Stand,5,"Average product, expected better."
+356,Smartphone Case,2,Not satisfied with the build quality.
+357,Gaming Mouse,1,Good value for money.
+358,Gaming Mouse,1,"Average product, expected better."
+359,Smartphone Case,2,Would not buy again.
+360,Fitness Tracker,2,Good value for money.
+361,Fitness Tracker,3,Good value for money.
+362,Laptop Stand,2,Good value for money.
+363,Mechanical Keyboard,2,"Average product, expected better."
+364,Smartphone Case,2,Exceeded my expectations!
+365,Laptop Stand,5,Battery life could be better.
+366,Fitness Tracker,4,Exceeded my expectations!
+367,Portable Charger,2,Would not buy again.
+368,Smartphone Case,1,Exceeded my expectations!
+369,Mechanical Keyboard,2,Good value for money.
+370,LED Monitor,5,Battery life could be better.
+371,LED Monitor,1,"Five stars, very happy with this purchase."
+372,Portable Charger,5,Good value for money.
+373,Mechanical Keyboard,4,Excellent quality and fast delivery.
+374,Bluetooth Speaker,1,Battery life could be better.
+375,Wireless Earbuds,2,"Average product, expected better."
+376,Smartphone Case,2,Battery life could be better.
+377,Laptop Stand,3,Battery life could be better.
+378,LED Monitor,3,Excellent quality and fast delivery.
+379,LED Monitor,1,"Five stars, very happy with this purchase."
+380,Smartwatch,2,"Five stars, very happy with this purchase."
+381,Mechanical Keyboard,1,Battery life could be better.
+382,Smartwatch,5,Exceeded my expectations!
+383,Fitness Tracker,2,Good value for money.
+384,Bluetooth Speaker,3,"Five stars, very happy with this purchase."
+385,LED Monitor,2,Good value for money.
+386,Laptop Stand,3,"Amazing performance, highly recommend."
+387,Laptop Stand,5,"Amazing performance, highly recommend."
+388,Mechanical Keyboard,3,Works as advertised.
+389,Laptop Stand,1,"Five stars, very happy with this purchase."
+390,Fitness Tracker,3,Not satisfied with the build quality.
+391,Gaming Mouse,5,"Amazing performance, highly recommend."
+392,Gaming Mouse,2,"Amazing performance, highly recommend."
+393,Laptop Stand,1,Exceeded my expectations!
+394,Portable Charger,2,Good value for money.
+395,Gaming Mouse,2,Would not buy again.
+396,LED Monitor,1,Exceeded my expectations!
+397,Gaming Mouse,4,Exceeded my expectations!
+398,Fitness Tracker,5,"Average product, expected better."
+399,Gaming Mouse,2,Would not buy again.
+400,Bluetooth Speaker,3,"Amazing performance, highly recommend."
+401,Smartphone Case,3,Good value for money.
+402,Fitness Tracker,1,Would not buy again.
+403,Mechanical Keyboard,3,Battery life could be better.
+404,Laptop Stand,4,Battery life could be better.
+405,Bluetooth Speaker,1,Exceeded my expectations!
+406,Portable Charger,5,Works as advertised.
+407,Bluetooth Speaker,3,Not satisfied with the build quality.
+408,Portable Charger,3,Exceeded my expectations!
+409,Gaming Mouse,3,"Amazing performance, highly recommend."
+410,Portable Charger,4,Good value for money.
+411,Laptop Stand,5,Battery life could be better.
+412,Smartwatch,3,Would not buy again.
+413,Portable Charger,3,Not satisfied with the build quality.
+414,Smartwatch,2,Would not buy again.
+415,Portable Charger,4,Exceeded my expectations!
+416,Gaming Mouse,3,Not satisfied with the build quality.
+417,Mechanical Keyboard,2,Excellent quality and fast delivery.
+418,Mechanical Keyboard,3,"Five stars, very happy with this purchase."
+419,Fitness Tracker,5,Excellent quality and fast delivery.
+420,Wireless Earbuds,2,Good value for money.
+421,Smartwatch,2,Battery life could be better.
+422,Fitness Tracker,2,"Five stars, very happy with this purchase."
+423,Portable Charger,4,Battery life could be better.
+424,Smartphone Case,3,"Five stars, very happy with this purchase."
+425,Smartphone Case,3,Battery life could be better.
+426,Wireless Earbuds,3,Exceeded my expectations!
+427,Fitness Tracker,1,Battery life could be better.
+428,Gaming Mouse,4,"Five stars, very happy with this purchase."
+429,Bluetooth Speaker,5,"Five stars, very happy with this purchase."
+430,Mechanical Keyboard,4,Excellent quality and fast delivery.
+431,Bluetooth Speaker,1,Excellent quality and fast delivery.
+432,Gaming Mouse,2,"Amazing performance, highly recommend."
+433,Smartwatch,3,Good value for money.
+434,Portable Charger,1,Not satisfied with the build quality.
+435,Wireless Earbuds,5,Works as advertised.
+436,Smartwatch,3,"Amazing performance, highly recommend."
+437,Bluetooth Speaker,4,Exceeded my expectations!
+438,LED Monitor,1,Excellent quality and fast delivery.
+439,Fitness Tracker,3,"Five stars, very happy with this purchase."
+440,Wireless Earbuds,4,"Average product, expected better."
+441,Wireless Earbuds,3,Good value for money.
+442,Mechanical Keyboard,5,"Amazing performance, highly recommend."
+443,Bluetooth Speaker,4,Not satisfied with the build quality.
+444,Smartphone Case,2,"Average product, expected better."
+445,Portable Charger,1,Not satisfied with the build quality.
+446,Smartwatch,5,"Amazing performance, highly recommend."
+447,Mechanical Keyboard,3,Works as advertised.
+448,Smartwatch,3,Exceeded my expectations!
+449,Portable Charger,5,Good value for money.
+450,Smartwatch,1,Would not buy again.
+451,Mechanical Keyboard,5,Would not buy again.
+452,Laptop Stand,4,"Average product, expected better."
+453,Smartwatch,3,Battery life could be better.
+454,LED Monitor,3,Battery life could be better.
+455,Wireless Earbuds,5,Not satisfied with the build quality.
+456,Bluetooth Speaker,4,"Amazing performance, highly recommend."
+457,Smartphone Case,4,Battery life could be better.
+458,Fitness Tracker,4,"Average product, expected better."
+459,Bluetooth Speaker,2,Would not buy again.
+460,Smartwatch,2,Exceeded my expectations!
+461,Laptop Stand,4,Exceeded my expectations!
+462,Bluetooth Speaker,2,Not satisfied with the build quality.
+463,Fitness Tracker,1,Exceeded my expectations!
+464,Fitness Tracker,5,"Average product, expected better."
+465,Smartwatch,2,Battery life could be better.
+466,Wireless Earbuds,2,Exceeded my expectations!
+467,Smartwatch,4,"Five stars, very happy with this purchase."
+468,Smartphone Case,5,"Average product, expected better."
+469,Gaming Mouse,1,Would not buy again.
+470,Smartwatch,1,Not satisfied with the build quality.
+471,Fitness Tracker,4,Not satisfied with the build quality.
+472,Bluetooth Speaker,4,"Amazing performance, highly recommend."
+473,Gaming Mouse,5,"Average product, expected better."
+474,Mechanical Keyboard,3,"Average product, expected better."
+475,Fitness Tracker,2,Good value for money.
+476,Gaming Mouse,3,Would not buy again.
+477,Portable Charger,4,"Average product, expected better."
+478,LED Monitor,1,"Five stars, very happy with this purchase."
+479,Gaming Mouse,2,Not satisfied with the build quality.
+480,Fitness Tracker,4,Battery life could be better.
+481,LED Monitor,4,Exceeded my expectations!
+482,Laptop Stand,1,Works as advertised.
+483,Gaming Mouse,4,"Average product, expected better."
+484,Bluetooth Speaker,2,Exceeded my expectations!
+485,Portable Charger,3,Works as advertised.
+486,Wireless Earbuds,2,"Five stars, very happy with this purchase."
+487,Portable Charger,4,Good value for money.
+488,Bluetooth Speaker,2,Battery life could be better.
+489,Smartphone Case,4,"Amazing performance, highly recommend."
+490,Gaming Mouse,2,Works as advertised.
+491,Wireless Earbuds,5,Exceeded my expectations!
+492,Laptop Stand,2,Not satisfied with the build quality.
+493,Fitness Tracker,4,Works as advertised.
+494,Bluetooth Speaker,3,Good value for money.
+495,Fitness Tracker,5,Good value for money.
+496,LED Monitor,1,Good value for money.
+497,Fitness Tracker,5,Would not buy again.
+498,Mechanical Keyboard,4,"Average product, expected better."
+499,Wireless Earbuds,1,Not satisfied with the build quality.
+500,Fitness Tracker,2,"Average product, expected better."
+501,Wireless Earbuds,3,Battery life could be better.
+502,Portable Charger,2,Not satisfied with the build quality.
+503,Gaming Mouse,3,Good value for money.
+504,Laptop Stand,2,Works as advertised.
+505,Smartphone Case,2,Exceeded my expectations!
+506,Wireless Earbuds,4,Exceeded my expectations!
+507,Bluetooth Speaker,2,Not satisfied with the build quality.
+508,Fitness Tracker,1,Battery life could be better.
+509,Bluetooth Speaker,1,Good value for money.
+510,Smartphone Case,1,Would not buy again.
+511,Gaming Mouse,4,Exceeded my expectations!
+512,Smartwatch,1,"Amazing performance, highly recommend."
+513,Bluetooth Speaker,4,Good value for money.
+514,Fitness Tracker,1,Would not buy again.
+515,Smartwatch,3,Exceeded my expectations!
+516,Laptop Stand,1,Exceeded my expectations!
+517,LED Monitor,2,Good value for money.
+518,Fitness Tracker,4,Not satisfied with the build quality.
+519,Smartwatch,3,Battery life could be better.
+520,Portable Charger,4,"Amazing performance, highly recommend."
+521,Smartphone Case,3,Excellent quality and fast delivery.
+522,Mechanical Keyboard,1,Good value for money.
+523,Fitness Tracker,1,Not satisfied with the build quality.
+524,Smartphone Case,1,Battery life could be better.
+525,Mechanical Keyboard,4,Would not buy again.
+526,Bluetooth Speaker,1,"Five stars, very happy with this purchase."
+527,Fitness Tracker,5,"Average product, expected better."
+528,Wireless Earbuds,1,Would not buy again.
+529,Smartphone Case,3,Not satisfied with the build quality.
+530,Laptop Stand,2,Works as advertised.
+531,Gaming Mouse,2,Would not buy again.
+532,Smartphone Case,2,Excellent quality and fast delivery.
+533,Laptop Stand,4,Good value for money.
+534,Gaming Mouse,3,Good value for money.
+535,Laptop Stand,5,Exceeded my expectations!
+536,Portable Charger,2,"Average product, expected better."
+537,Smartwatch,3,Not satisfied with the build quality.
+538,Gaming Mouse,1,Battery life could be better.
+539,Laptop Stand,4,Not satisfied with the build quality.
+540,Portable Charger,4,Good value for money.
+541,Fitness Tracker,4,Exceeded my expectations!
+542,Gaming Mouse,5,Works as advertised.
+543,Laptop Stand,3,Would not buy again.
+544,Gaming Mouse,3,Battery life could be better.
+545,Mechanical Keyboard,1,"Amazing performance, highly recommend."
+546,Fitness Tracker,1,"Amazing performance, highly recommend."
+547,Gaming Mouse,2,"Average product, expected better."
+548,Mechanical Keyboard,1,"Amazing performance, highly recommend."
+549,Portable Charger,3,Not satisfied with the build quality.
+550,Mechanical Keyboard,2,Exceeded my expectations!
+551,Fitness Tracker,2,"Average product, expected better."
+552,Wireless Earbuds,1,Not satisfied with the build quality.
+553,Laptop Stand,5,"Amazing performance, highly recommend."
+554,Smartwatch,4,Exceeded my expectations!
+555,Bluetooth Speaker,1,Good value for money.
+556,Mechanical Keyboard,3,Good value for money.
+557,Portable Charger,2,Not satisfied with the build quality.
+558,Portable Charger,3,"Average product, expected better."
+559,Gaming Mouse,4,Battery life could be better.
+560,Fitness Tracker,3,Excellent quality and fast delivery.
+561,Wireless Earbuds,1,"Five stars, very happy with this purchase."
+562,Gaming Mouse,4,Works as advertised.
+563,Portable Charger,4,Would not buy again.
+564,Wireless Earbuds,3,"Amazing performance, highly recommend."
+565,LED Monitor,1,Not satisfied with the build quality.
+566,Laptop Stand,1,Good value for money.
+567,Gaming Mouse,2,Good value for money.
+568,Fitness Tracker,3,Works as advertised.
+569,Fitness Tracker,3,Good value for money.
+570,Bluetooth Speaker,5,Excellent quality and fast delivery.
+571,Laptop Stand,3,Good value for money.
+572,Wireless Earbuds,2,"Average product, expected better."
+573,Portable Charger,5,Good value for money.
+574,LED Monitor,5,Good value for money.
+575,Bluetooth Speaker,3,Not satisfied with the build quality.
+576,Bluetooth Speaker,4,Works as advertised.
+577,LED Monitor,3,Good value for money.
+578,Laptop Stand,1,Exceeded my expectations!
+579,Wireless Earbuds,5,Not satisfied with the build quality.
+580,Mechanical Keyboard,4,Would not buy again.
+581,Bluetooth Speaker,2,"Average product, expected better."
+582,Bluetooth Speaker,5,Not satisfied with the build quality.
+583,Gaming Mouse,4,Battery life could be better.
+584,Smartwatch,1,"Five stars, very happy with this purchase."
+585,Gaming Mouse,4,Good value for money.
+586,Smartwatch,3,"Five stars, very happy with this purchase."
+587,Fitness Tracker,4,"Average product, expected better."
+588,Gaming Mouse,5,"Amazing performance, highly recommend."
+589,Bluetooth Speaker,2,"Five stars, very happy with this purchase."
+590,Gaming Mouse,5,Works as advertised.
+591,Gaming Mouse,2,"Average product, expected better."
+592,Wireless Earbuds,2,Works as advertised.
+593,Smartphone Case,1,Works as advertised.
+594,Mechanical Keyboard,1,Would not buy again.
+595,Laptop Stand,3,Would not buy again.
+596,Bluetooth Speaker,4,Not satisfied with the build quality.
+597,Portable Charger,5,"Average product, expected better."
+598,Mechanical Keyboard,1,"Average product, expected better."
+599,Mechanical Keyboard,1,Battery life could be better.
+600,Gaming Mouse,4,Not satisfied with the build quality.
+601,Portable Charger,3,"Average product, expected better."
+602,Gaming Mouse,4,Works as advertised.
+603,Mechanical Keyboard,1,Excellent quality and fast delivery.
+604,Fitness Tracker,1,Exceeded my expectations!
+605,LED Monitor,3,"Average product, expected better."
+606,Gaming Mouse,1,Battery life could be better.
+607,Portable Charger,1,"Five stars, very happy with this purchase."
+608,Wireless Earbuds,2,Excellent quality and fast delivery.
+609,Portable Charger,2,Would not buy again.
+610,Bluetooth Speaker,5,Works as advertised.
+611,Bluetooth Speaker,4,Would not buy again.
+612,Gaming Mouse,4,"Five stars, very happy with this purchase."
+613,Wireless Earbuds,3,"Five stars, very happy with this purchase."
+614,Smartwatch,1,Battery life could be better.
+615,Laptop Stand,4,Exceeded my expectations!
+616,Mechanical Keyboard,2,"Five stars, very happy with this purchase."
+617,Fitness Tracker,4,Would not buy again.
+618,Bluetooth Speaker,5,"Amazing performance, highly recommend."
+619,Laptop Stand,2,Excellent quality and fast delivery.
+620,LED Monitor,1,Battery life could be better.
+621,Smartwatch,3,Battery life could be better.
+622,Smartphone Case,1,Not satisfied with the build quality.
+623,LED Monitor,4,Works as advertised.
+624,Mechanical Keyboard,5,"Average product, expected better."
+625,Fitness Tracker,4,"Amazing performance, highly recommend."
+626,Gaming Mouse,4,Would not buy again.
+627,Fitness Tracker,2,Excellent quality and fast delivery.
+628,Portable Charger,3,Excellent quality and fast delivery.
+629,Bluetooth Speaker,2,"Amazing performance, highly recommend."
+630,Fitness Tracker,5,"Five stars, very happy with this purchase."
+631,Laptop Stand,5,Not satisfied with the build quality.
+632,Gaming Mouse,1,"Five stars, very happy with this purchase."
+633,Wireless Earbuds,2,Would not buy again.
+634,Mechanical Keyboard,5,"Five stars, very happy with this purchase."
+635,Wireless Earbuds,2,Good value for money.
+636,LED Monitor,1,"Average product, expected better."
+637,Gaming Mouse,4,Good value for money.
+638,LED Monitor,1,Good value for money.
+639,Fitness Tracker,1,"Average product, expected better."
+640,Gaming Mouse,3,"Amazing performance, highly recommend."
+641,Gaming Mouse,4,Works as advertised.
+642,Smartwatch,2,Exceeded my expectations!
+643,Bluetooth Speaker,4,Exceeded my expectations!
+644,Bluetooth Speaker,5,Exceeded my expectations!
+645,Mechanical Keyboard,4,Would not buy again.
+646,Mechanical Keyboard,4,"Average product, expected better."
+647,Smartwatch,3,Would not buy again.
+648,Bluetooth Speaker,2,Not satisfied with the build quality.
+649,Smartwatch,5,Exceeded my expectations!
+650,Mechanical Keyboard,1,Good value for money.
+651,Bluetooth Speaker,5,Good value for money.
+652,Smartphone Case,5,Battery life could be better.
+653,Laptop Stand,3,Excellent quality and fast delivery.
+654,Laptop Stand,3,Would not buy again.
+655,Smartwatch,1,Not satisfied with the build quality.
+656,Smartwatch,3,Good value for money.
+657,Wireless Earbuds,3,"Average product, expected better."
+658,Mechanical Keyboard,5,Exceeded my expectations!
+659,Laptop Stand,1,Works as advertised.
+660,Laptop Stand,3,Battery life could be better.
+661,Bluetooth Speaker,2,"Average product, expected better."
+662,Mechanical Keyboard,1,"Five stars, very happy with this purchase."
+663,Wireless Earbuds,1,"Average product, expected better."
+664,Gaming Mouse,4,Good value for money.
+665,Mechanical Keyboard,4,"Average product, expected better."
+666,Gaming Mouse,1,Excellent quality and fast delivery.
+667,Portable Charger,5,Would not buy again.
+668,Mechanical Keyboard,2,Battery life could be better.
+669,Bluetooth Speaker,3,Good value for money.
+670,LED Monitor,5,Exceeded my expectations!
+671,LED Monitor,1,"Amazing performance, highly recommend."
+672,Fitness Tracker,3,Works as advertised.
+673,Bluetooth Speaker,1,Excellent quality and fast delivery.
+674,LED Monitor,1,Would not buy again.
+675,LED Monitor,4,Would not buy again.
+676,Portable Charger,4,Exceeded my expectations!
+677,LED Monitor,1,Good value for money.
+678,Mechanical Keyboard,2,Not satisfied with the build quality.
+679,Smartwatch,2,"Five stars, very happy with this purchase."
+680,Fitness Tracker,2,Exceeded my expectations!
+681,Wireless Earbuds,3,"Amazing performance, highly recommend."
+682,Gaming Mouse,1,Would not buy again.
+683,Wireless Earbuds,5,"Five stars, very happy with this purchase."
+684,Laptop Stand,4,Not satisfied with the build quality.
+685,Wireless Earbuds,3,Good value for money.
+686,Laptop Stand,4,Not satisfied with the build quality.
+687,Bluetooth Speaker,3,Exceeded my expectations!
+688,Wireless Earbuds,1,Exceeded my expectations!
+689,Bluetooth Speaker,2,Good value for money.
+690,Wireless Earbuds,4,"Amazing performance, highly recommend."
+691,Wireless Earbuds,1,"Amazing performance, highly recommend."
+692,Wireless Earbuds,2,"Five stars, very happy with this purchase."
+693,Fitness Tracker,4,Works as advertised.
+694,Mechanical Keyboard,2,Not satisfied with the build quality.
+695,Portable Charger,4,Exceeded my expectations!
+696,Mechanical Keyboard,3,"Average product, expected better."
+697,Wireless Earbuds,4,Would not buy again.
+698,Smartwatch,3,Not satisfied with the build quality.
+699,Gaming Mouse,4,Exceeded my expectations!
+700,Gaming Mouse,5,Battery life could be better.
+701,Fitness Tracker,2,Not satisfied with the build quality.
+702,Wireless Earbuds,4,Exceeded my expectations!
+703,Mechanical Keyboard,3,Exceeded my expectations!
+704,Smartwatch,2,Battery life could be better.
+705,Fitness Tracker,4,"Five stars, very happy with this purchase."
+706,LED Monitor,1,Battery life could be better.
+707,Gaming Mouse,5,Battery life could be better.
+708,Gaming Mouse,1,Exceeded my expectations!
+709,Smartphone Case,5,"Five stars, very happy with this purchase."
+710,LED Monitor,4,Excellent quality and fast delivery.
+711,Laptop Stand,4,Not satisfied with the build quality.
+712,Fitness Tracker,5,Battery life could be better.
+713,LED Monitor,3,Exceeded my expectations!
+714,Smartwatch,3,Works as advertised.
+715,Laptop Stand,3,Good value for money.
+716,Bluetooth Speaker,5,"Amazing performance, highly recommend."
+717,Smartphone Case,5,Good value for money.
+718,Smartphone Case,3,Battery life could be better.
+719,Bluetooth Speaker,2,Good value for money.
+720,Gaming Mouse,4,Would not buy again.
+721,Smartphone Case,1,Battery life could be better.
+722,Laptop Stand,1,Exceeded my expectations!
+723,Laptop Stand,2,Battery life could be better.
+724,Smartphone Case,3,Battery life could be better.
+725,Bluetooth Speaker,4,Good value for money.
+726,Fitness Tracker,1,Exceeded my expectations!
+727,Gaming Mouse,2,"Average product, expected better."
+728,Smartwatch,2,"Average product, expected better."
+729,Mechanical Keyboard,3,"Five stars, very happy with this purchase."
+730,Laptop Stand,5,"Average product, expected better."
+731,Bluetooth Speaker,2,Would not buy again.
+732,Gaming Mouse,5,Excellent quality and fast delivery.
+733,Portable Charger,1,Battery life could be better.
+734,Bluetooth Speaker,2,Good value for money.
+735,Wireless Earbuds,4,"Five stars, very happy with this purchase."
+736,Smartphone Case,3,"Five stars, very happy with this purchase."
+737,Gaming Mouse,5,Not satisfied with the build quality.
+738,Bluetooth Speaker,2,Battery life could be better.
+739,Fitness Tracker,2,Good value for money.
+740,Mechanical Keyboard,4,"Average product, expected better."
+741,Wireless Earbuds,2,Good value for money.
+742,Smartwatch,4,Exceeded my expectations!
+743,LED Monitor,2,Good value for money.
+744,LED Monitor,3,Battery life could be better.
+745,Smartwatch,2,Excellent quality and fast delivery.
+746,LED Monitor,2,Works as advertised.
+747,LED Monitor,1,Excellent quality and fast delivery.
+748,LED Monitor,2,Good value for money.
+749,Smartphone Case,3,"Amazing performance, highly recommend."
+750,Gaming Mouse,3,Exceeded my expectations!
+751,Smartwatch,2,Good value for money.
+752,Fitness Tracker,4,Excellent quality and fast delivery.
+753,Smartwatch,1,Good value for money.
+754,Mechanical Keyboard,2,Not satisfied with the build quality.
+755,Laptop Stand,4,"Five stars, very happy with this purchase."
+756,Fitness Tracker,2,Not satisfied with the build quality.
+757,LED Monitor,1,Battery life could be better.
+758,Smartphone Case,4,"Average product, expected better."
+759,Fitness Tracker,4,Exceeded my expectations!
+760,LED Monitor,1,"Five stars, very happy with this purchase."
+761,Smartphone Case,1,"Amazing performance, highly recommend."
+762,Laptop Stand,4,"Amazing performance, highly recommend."
+763,Fitness Tracker,3,"Amazing performance, highly recommend."
+764,Bluetooth Speaker,4,Works as advertised.
+765,LED Monitor,2,Exceeded my expectations!
+766,Bluetooth Speaker,5,Battery life could be better.
+767,Smartphone Case,4,Would not buy again.
+768,LED Monitor,1,"Five stars, very happy with this purchase."
+769,LED Monitor,3,"Five stars, very happy with this purchase."
+770,Laptop Stand,2,Would not buy again.
+771,Laptop Stand,2,Would not buy again.
+772,LED Monitor,4,"Average product, expected better."
+773,Laptop Stand,1,"Five stars, very happy with this purchase."
+774,Smartphone Case,3,Exceeded my expectations!
+775,Laptop Stand,2,Works as advertised.
+776,Fitness Tracker,4,"Average product, expected better."
+777,Bluetooth Speaker,4,Works as advertised.
+778,Gaming Mouse,5,Works as advertised.
+779,Gaming Mouse,2,"Average product, expected better."
+780,Smartphone Case,5,"Amazing performance, highly recommend."
+781,Portable Charger,4,Works as advertised.
+782,Fitness Tracker,5,Good value for money.
+783,Smartphone Case,3,"Five stars, very happy with this purchase."
+784,Gaming Mouse,3,Works as advertised.
+785,Laptop Stand,5,"Amazing performance, highly recommend."
+786,Smartwatch,4,"Average product, expected better."
+787,Laptop Stand,1,"Five stars, very happy with this purchase."
+788,Mechanical Keyboard,1,Battery life could be better.
+789,Bluetooth Speaker,4,"Five stars, very happy with this purchase."
+790,Gaming Mouse,4,Battery life could be better.
+791,Smartwatch,5,"Amazing performance, highly recommend."
+792,Mechanical Keyboard,1,Not satisfied with the build quality.
+793,Smartphone Case,5,"Amazing performance, highly recommend."
+794,Bluetooth Speaker,5,"Average product, expected better."
+795,Mechanical Keyboard,4,Excellent quality and fast delivery.
+796,Gaming Mouse,2,Battery life could be better.
+797,LED Monitor,2,Excellent quality and fast delivery.
+798,Wireless Earbuds,1,Exceeded my expectations!
+799,Portable Charger,2,Would not buy again.
+800,Mechanical Keyboard,1,"Amazing performance, highly recommend."
+801,Wireless Earbuds,3,"Average product, expected better."
+802,Gaming Mouse,4,Good value for money.
+803,Smartphone Case,1,"Amazing performance, highly recommend."
+804,LED Monitor,5,Would not buy again.
+805,Smartwatch,3,"Amazing performance, highly recommend."
+806,Gaming Mouse,5,Not satisfied with the build quality.
+807,Smartphone Case,1,Exceeded my expectations!
+808,LED Monitor,1,"Five stars, very happy with this purchase."
+809,Wireless Earbuds,5,"Amazing performance, highly recommend."
+810,Gaming Mouse,5,"Average product, expected better."
+811,Portable Charger,1,"Five stars, very happy with this purchase."
+812,Wireless Earbuds,3,Exceeded my expectations!
+813,Smartphone Case,3,Would not buy again.
+814,Fitness Tracker,4,Would not buy again.
+815,Portable Charger,1,Good value for money.
+816,Laptop Stand,2,"Average product, expected better."
+817,Laptop Stand,3,Works as advertised.
+818,Portable Charger,1,Battery life could be better.
+819,LED Monitor,4,Exceeded my expectations!
+820,Gaming Mouse,5,Not satisfied with the build quality.
+821,Laptop Stand,5,Not satisfied with the build quality.
+822,Mechanical Keyboard,1,Works as advertised.
+823,Smartwatch,2,"Amazing performance, highly recommend."
+824,Smartwatch,4,Works as advertised.
+825,LED Monitor,2,Excellent quality and fast delivery.
+826,Portable Charger,2,Good value for money.
+827,Fitness Tracker,3,"Amazing performance, highly recommend."
+828,Wireless Earbuds,3,Battery life could be better.
+829,Bluetooth Speaker,4,Good value for money.
+830,Smartwatch,2,Excellent quality and fast delivery.
+831,LED Monitor,1,"Average product, expected better."
+832,Mechanical Keyboard,3,"Five stars, very happy with this purchase."
+833,Gaming Mouse,5,Exceeded my expectations!
+834,Laptop Stand,4,Not satisfied with the build quality.
+835,Wireless Earbuds,5,"Five stars, very happy with this purchase."
+836,Wireless Earbuds,1,Good value for money.
+837,Laptop Stand,5,Works as advertised.
+838,Smartwatch,4,Excellent quality and fast delivery.
+839,Mechanical Keyboard,4,Good value for money.
+840,Smartphone Case,2,Battery life could be better.
+841,Fitness Tracker,5,Would not buy again.
+842,Bluetooth Speaker,3,Exceeded my expectations!
+843,Laptop Stand,4,"Amazing performance, highly recommend."
+844,Gaming Mouse,1,Exceeded my expectations!
+845,Smartphone Case,2,Would not buy again.
+846,Smartwatch,2,"Average product, expected better."
+847,LED Monitor,2,"Five stars, very happy with this purchase."
+848,Wireless Earbuds,5,Works as advertised.
+849,Wireless Earbuds,1,Excellent quality and fast delivery.
+850,Smartphone Case,1,Good value for money.
+851,Smartwatch,5,Not satisfied with the build quality.
+852,Fitness Tracker,3,"Amazing performance, highly recommend."
+853,LED Monitor,2,Exceeded my expectations!
+854,Smartphone Case,5,"Amazing performance, highly recommend."
+855,Wireless Earbuds,3,Good value for money.
+856,Fitness Tracker,2,Exceeded my expectations!
+857,Bluetooth Speaker,4,Works as advertised.
+858,LED Monitor,2,Would not buy again.
+859,Smartphone Case,1,Good value for money.
+860,Mechanical Keyboard,2,Exceeded my expectations!
+861,LED Monitor,4,Exceeded my expectations!
+862,Bluetooth Speaker,3,Not satisfied with the build quality.
+863,Smartphone Case,5,"Amazing performance, highly recommend."
+864,Fitness Tracker,4,Exceeded my expectations!
+865,Mechanical Keyboard,4,Excellent quality and fast delivery.
+866,Fitness Tracker,5,"Five stars, very happy with this purchase."
+867,Bluetooth Speaker,1,Would not buy again.
+868,Bluetooth Speaker,4,Would not buy again.
+869,Smartwatch,3,Works as advertised.
+870,Bluetooth Speaker,1,Excellent quality and fast delivery.
+871,Portable Charger,2,"Five stars, very happy with this purchase."
+872,Smartwatch,1,Not satisfied with the build quality.
+873,Wireless Earbuds,1,"Average product, expected better."
+874,Mechanical Keyboard,4,Would not buy again.
+875,Gaming Mouse,1,Works as advertised.
+876,Laptop Stand,3,Would not buy again.
+877,Fitness Tracker,1,Battery life could be better.
+878,Fitness Tracker,4,Would not buy again.
+879,LED Monitor,4,Would not buy again.
+880,Smartphone Case,3,Not satisfied with the build quality.
+881,Gaming Mouse,3,Battery life could be better.
+882,LED Monitor,5,Exceeded my expectations!
+883,Laptop Stand,3,"Five stars, very happy with this purchase."
+884,Bluetooth Speaker,3,Not satisfied with the build quality.
+885,Laptop Stand,2,"Average product, expected better."
+886,Laptop Stand,4,Would not buy again.
+887,Fitness Tracker,3,Excellent quality and fast delivery.
+888,Laptop Stand,2,Not satisfied with the build quality.
+889,Smartwatch,2,Works as advertised.
+890,Laptop Stand,2,Battery life could be better.
+891,Wireless Earbuds,3,"Five stars, very happy with this purchase."
+892,Fitness Tracker,3,Excellent quality and fast delivery.
+893,Gaming Mouse,4,"Average product, expected better."
+894,Mechanical Keyboard,5,Not satisfied with the build quality.
+895,Smartphone Case,5,Battery life could be better.
+896,Mechanical Keyboard,3,Works as advertised.
+897,Bluetooth Speaker,5,Exceeded my expectations!
+898,Smartphone Case,1,"Average product, expected better."
+899,Laptop Stand,2,Works as advertised.
+900,Laptop Stand,3,Not satisfied with the build quality.
+901,Fitness Tracker,4,"Average product, expected better."
+902,Smartphone Case,5,Good value for money.
+903,LED Monitor,3,"Five stars, very happy with this purchase."
+904,Portable Charger,2,Battery life could be better.
+905,Wireless Earbuds,4,"Amazing performance, highly recommend."
+906,Fitness Tracker,5,Works as advertised.
+907,Fitness Tracker,2,"Five stars, very happy with this purchase."
+908,LED Monitor,1,"Average product, expected better."
+909,Laptop Stand,5,Not satisfied with the build quality.
+910,Laptop Stand,2,Would not buy again.
+911,Mechanical Keyboard,2,"Five stars, very happy with this purchase."
+912,Gaming Mouse,5,Good value for money.
+913,Laptop Stand,4,Works as advertised.
+914,LED Monitor,1,Exceeded my expectations!
+915,LED Monitor,5,"Five stars, very happy with this purchase."
+916,LED Monitor,5,Would not buy again.
+917,Wireless Earbuds,2,Excellent quality and fast delivery.
+918,Portable Charger,2,Not satisfied with the build quality.
+919,Portable Charger,5,"Average product, expected better."
+920,Wireless Earbuds,4,"Amazing performance, highly recommend."
+921,Portable Charger,2,"Five stars, very happy with this purchase."
+922,Smartwatch,2,Good value for money.
+923,Gaming Mouse,1,Would not buy again.
+924,Mechanical Keyboard,4,Good value for money.
+925,Bluetooth Speaker,1,Not satisfied with the build quality.
+926,Mechanical Keyboard,5,"Average product, expected better."
+927,Bluetooth Speaker,5,Would not buy again.
+928,Fitness Tracker,5,Excellent quality and fast delivery.
+929,Fitness Tracker,4,Excellent quality and fast delivery.
+930,Wireless Earbuds,5,Not satisfied with the build quality.
+931,Laptop Stand,1,"Average product, expected better."
+932,LED Monitor,3,Good value for money.
+933,Fitness Tracker,3,"Five stars, very happy with this purchase."
+934,Fitness Tracker,2,Good value for money.
+935,Smartphone Case,4,Would not buy again.
+936,Mechanical Keyboard,5,"Average product, expected better."
+937,Wireless Earbuds,2,Excellent quality and fast delivery.
+938,Mechanical Keyboard,1,Not satisfied with the build quality.
+939,LED Monitor,1,"Average product, expected better."
+940,Portable Charger,1,Works as advertised.
+941,Wireless Earbuds,4,Excellent quality and fast delivery.
+942,LED Monitor,4,Exceeded my expectations!
+943,Gaming Mouse,3,Battery life could be better.
+944,Wireless Earbuds,5,Good value for money.
+945,Wireless Earbuds,1,Good value for money.
+946,LED Monitor,1,Good value for money.
+947,LED Monitor,3,Works as advertised.
+948,Bluetooth Speaker,1,Would not buy again.
+949,Wireless Earbuds,3,Good value for money.
+950,Fitness Tracker,1,"Five stars, very happy with this purchase."
+951,Mechanical Keyboard,4,"Average product, expected better."
+952,Portable Charger,1,Good value for money.
+953,Smartwatch,2,Would not buy again.
+954,Laptop Stand,4,Exceeded my expectations!
+955,Fitness Tracker,2,Works as advertised.
+956,Mechanical Keyboard,3,"Five stars, very happy with this purchase."
+957,Wireless Earbuds,2,"Average product, expected better."
+958,Fitness Tracker,2,Exceeded my expectations!
+959,Fitness Tracker,2,"Five stars, very happy with this purchase."
+960,Bluetooth Speaker,1,Exceeded my expectations!
+961,Smartwatch,4,Battery life could be better.
+962,Gaming Mouse,1,Would not buy again.
+963,Fitness Tracker,4,Battery life could be better.
+964,Fitness Tracker,2,"Average product, expected better."
+965,Gaming Mouse,2,Battery life could be better.
+966,Gaming Mouse,5,Exceeded my expectations!
+967,Smartphone Case,4,Not satisfied with the build quality.
+968,Smartphone Case,5,"Average product, expected better."
+969,Gaming Mouse,1,Exceeded my expectations!
+970,Smartphone Case,2,"Five stars, very happy with this purchase."
+971,Wireless Earbuds,4,"Amazing performance, highly recommend."
+972,Fitness Tracker,2,Good value for money.
+973,Fitness Tracker,1,"Average product, expected better."
+974,Gaming Mouse,5,Battery life could be better.
+975,Bluetooth Speaker,5,"Average product, expected better."
+976,Smartphone Case,4,Not satisfied with the build quality.
+977,Laptop Stand,2,Would not buy again.
+978,Gaming Mouse,3,Exceeded my expectations!
+979,Portable Charger,3,Good value for money.
+980,LED Monitor,4,Would not buy again.
+981,Smartwatch,4,Would not buy again.
+982,Mechanical Keyboard,4,Battery life could be better.
+983,Fitness Tracker,1,Good value for money.
+984,Gaming Mouse,1,"Amazing performance, highly recommend."
+985,Bluetooth Speaker,4,"Five stars, very happy with this purchase."
+986,Wireless Earbuds,4,Battery life could be better.
+987,LED Monitor,1,Not satisfied with the build quality.
+988,Smartphone Case,4,Not satisfied with the build quality.
+989,LED Monitor,2,Not satisfied with the build quality.
+990,Gaming Mouse,1,"Five stars, very happy with this purchase."
+991,Fitness Tracker,3,Works as advertised.
+992,Portable Charger,4,Not satisfied with the build quality.
+993,Portable Charger,1,Battery life could be better.
+994,Bluetooth Speaker,4,Excellent quality and fast delivery.
+995,Mechanical Keyboard,1,Excellent quality and fast delivery.
+996,Laptop Stand,5,Exceeded my expectations!
+997,Bluetooth Speaker,2,Not satisfied with the build quality.
+998,Laptop Stand,3,"Five stars, very happy with this purchase."
+999,Gaming Mouse,3,Exceeded my expectations!
+1000,Smartphone Case,3,Excellent quality and fast delivery.
