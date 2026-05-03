@@ -1,0 +1,179 @@
+Data science:it is used to extract the data to get the insights for
+the business problem
+solving the complex problems by using ml ,dl,nlp with the help of stats
+and probability
+
+
+data science:
+
+python programming
+sql
+
+libraries:
+
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+scikit-learn
+tensorflow
+
+databases:
+mysql
+
+tools:
+jupyter notebook
+vs code
+streamlit
+fastapi
+
+
+
+Resume:
+
+Header section:
+
+Full name
+phone number
+email
+linkedlin
+
+data analysis:dashboard---portfolio---powerbi
+
+professional summary:
+
+Aspiring data scientist with strong knowledge in python,sql,
+machine learning,data vizualization and statistical analysis
+hands on experience in building predictive models,eda and deploying
+ml projects by using streamlit and also used deep learning algorithms
+for building computer vision applications
+
+
+educational details:
+
+10th done in the year ----
+intermediate in the year-----
+btech in the year----
+
+technical skills:
+
+programming:python programming
+libraries:numpy,pandas,matplotlib,seaborn,plotly,
+dash,scikit-learn,tensorflow,pytorch
+data vizualization:powerbi,tableau
+tools:jupyter notebook,colab,vs code,fast api
+cloud:aws bedrock
+
+projects section:
+
+include:
+problem statement
+tools used
+dataset
+key results
+deployement
+
+project 1:
+sql+powerbi+python
+
+pizza sales analysis
+
+project 2:
+
+machine learning:predictions:brestcancer/churn price prediction
+
+deepl learning:cv project---smart attendence system
+
+project 3:
+
+nlp:recommendation engine(movies recommendation engine/books recommend)
+
+certifications:
+hackathons
+freelance projects
+internship in xyz certified 
+
+resume keywords:
+
+machine learning
+deep learning
+nlp
+data nalysis
+sql
+predictive modelling
+data vizulaization
+
+
+
+
+Generative ai:it is used to generate the new content like text,images,audios
+ and even videos
+
+programming:
+
+python
+
+sql
+
+gen ai skills:
+
+llms
+prompt engineering
+rag
+embeddings
+Ai agents
+
+frameworks:
+
+langchain
+llama index
+crew ai
+mcp server
+open api key
+Amazon bedrock
+
+vector databases:
+
+FAISS(facebook ai similarity search)
+
+pinecone(cloud based vector database)
+
+cloud:
+
+Aws bedrock
+
+project 1:
+
+enterprise rag chatbot with langchain
+
+features:
+pdf/documents/txt
+embedding
+faiss vector store
+semantic retrieval
+gpt as my llm
+streamlit ui
+fastapi as a backend
+
+technical skills:python,langchain,faiss,openai,fastapi,streamlit
+
+
+project 2:multi agent ai assistant:
+
+software assistant agent
+
+features:
+
+task---goal
+tools usage
+web search
+memory
+langgraph orchestration
+
+crew ai
+autogen
+mcp
+
+project 3:Aws bedrock project--integrated with one of the llm model 
+designed ai resume screening,ai medical assistant

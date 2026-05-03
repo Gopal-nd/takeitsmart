@@ -1,0 +1,53 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.env
+
+# Environment variables
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Streamlit
+.streamlit/
+
+# Database / vector store (FAISS, etc.)
+db/
+*.db
+
+# Data files (optional: ignore large datasets)
+data/
+*.csv
+*.xlsx
+*.json
+
+
+# Secrets / API keys
+config.py
+
+# Temporary files
+*.tmp
+*.bak
+
+# MyPy / Pyright
+.mypy_cache/
+.pytest_cache/

@@ -1,0 +1,8 @@
+go to new folder create it
+
+d:
+cd filename
+activate scripts
+python -m uvicorn main:app --reload --port 8000
+enter api key
+http://127.0.0.1:8000
