@@ -1,0 +1,509 @@
+VISVESVARAYA TECHNOLOGICAL UNIVERSITY
+Belagavi-590018, Karnataka
+
+================================================================
+                     INTERNSHIP REPORT
+                             ON
+         “MULTI-AGENT AI SOFTWARE DEVELOPMENT PLATFORM”
+================================================================
+
+Submitted in partial fulfillment of the requirements for the award of degree
+BACHELORS OF ENGINEERING 
+IN
+ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+
+Submitted by:
+KAVYASHREE N (1SB22AI031)
+
+Under the Guidance of:
+
+Internal Guide:
+Mr. S. Vanarasan
+Assistant Professor, Department of AIML
+Sri Sairam College of Engineering, Anekal, Bengaluru
+
+External Guide:
+Mr. Mallikarjun Kumbar
+Director, Take It Smart, Bangalore
+
+DEPARTMENT OF ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING 
+SRI SAIRAM COLLEGE OF ENGINEERING
+ANEKAL, BENGALURU - 562106
+ACADEMIC YEAR: 2025-2026
+
+----------------------------------------------------------------
+
+SRI SAIRAM COLLEGE OF ENGINEERING
+ANEKAL, BENGALURU - 562106
+DEPARTMENT OF ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+
+CERTIFICATE
+
+This is to certify that KAVYASHREE N bearing the USN 1SB22AI031 has carried out the INDUSTRY INTERNSHIP – BINT803B work entitled “MULTI-AGENT AI SOFTWARE DEVELOPMENT PLATFORM” in TAKE IT SMART (OPC) PVT. LTD., Bengaluru for the partial fulfillment for the award of Bachelor of Engineering in Department of Artificial Intelligence and Machine Learning in Sri Sairam College of Engineering, Bengaluru under Visvesvaraya Technological University, Belagavi during the year 2025-2026.
+
+
+Signature of the Head of Department                 Signature of the Principal
+Dr. Sivaprakash C                                   Dr. B Shadaksharappa
+Head of the Department, AIML                         Principal
+Sri Sairam College of Engineering                    Sri Sairam College of Engineering
+
+
+Name of Examiners:
+1.  __________________________________
+2.  __________________________________
+
+Signature with Date:
+1.  __________________________________
+2.  __________________________________
+
+----------------------------------------------------------------
+
+DECLARATION
+
+I, KAVYASHREE N, hereby declare that I have successfully completed my internship titled “Multi-Agent AI Software Development Platform” at Take It Smart (OPC) Pvt. Ltd. during the VIII semester of the B.E. (AIML) degree at Sri Sairam College of Engineering, Anekal, Bangalore, under the esteemed guidance of Mr. Mallikarjun Kumbar, Director, Take It Smart (OPC) Pvt. Ltd. and Mr. S. Vanarasan, Assistant Professor, Department of Artificial Intelligence and Machine Learning in Sri Sairam College of Engineering, affiliated with Visvesvaraya Technological University. 
+
+The work carried out during this internship is original and has not been submitted, either in part or in full, for any other degree or award in any university.
+
+
+Date: 14/05/2026
+Place: Bengaluru
+
+
+KAVYASHREE N (1SB22AI031)
+
+----------------------------------------------------------------
+
+ACKNOWLEDGEMENT
+
+I hereby thank the management of Sri Sairam College of Engineering for providing an opportunity to study in their esteemed institution and supporting this internship program.
+
+I extend my sincere gratitude to TAKE IT SMART (OPC) PVT. LTD. and their dedicated engineering team for providing an insightful, challenging, and enriching experience in the field of Artificial Intelligence, Multi-Agent Systems, and Full-Stack Engineering. The training and hands-on exposure not only broadened my understanding of Large Language Models (LLMs) but also equipped me with production-grade software development skills aligned with current industry standards.
+
+I am deeply grateful to our beloved Founder Chairman, MJF. Lion Leo Muthu, our esteemed CEO, Dr. Sai Prakash Leo Muthu, and our respected Chief Operating Officer, Dr. R. Arunkumar, for their unwavering support and kind encouragement.
+
+I sincerely thank Dr. B. Shadaksharappa, Principal, Sri Sairam College of Engineering, Bengaluru, for his constant encouragement and support in nurturing a positive attitude among students.
+
+I express my heartfelt gratitude and sincere thanks to Dr. Sivaprakash C, Professor and Head of the Department of AIML, Sri Sairam College of Engineering, Bengaluru, for his valuable guidance and support in facilitating the successful completion of my internship.
+
+I take this opportunity to express my sincere thanks to my internal guide Mr. S. Vanarasan, Assistant Professor, Department of AIML, Sri Sairam College of Engineering, and my external guide Mr. Mallikarjun Kumbar, Director, Take It Smart (OPC) Pvt. Ltd., Bangalore, for guiding, mentoring, and encouraging me throughout my internship tenure.
+
+I would also like to mention my special thanks to all the faculty members of the Department of Artificial Intelligence and Machine Learning, Sri Sairam College of Engineering, Bengaluru, for their valuable support and guidance.
+
+Finally, I thank my family and friends who have been encouraging me constantly and inspiring me throughout my studies, without whom this internship would not have been possible.
+
+----------------------------------------------------------------
+
+ABSTRACT
+
+This report presents a comprehensive summary of the professional internship completed at Take It Smart (OPC) Pvt. Ltd., focusing on the research, system design, and complete implementation of a Multi-Agent AI Software Development Platform. 
+
+The platform represents a state-of-the-art collaborative AI system that automates the entire software engineering lifecycle—from initial abstract requirement definition to complete architecture specification, backend API generation, frontend UI styling, code safety review, automated QA test script creation, background execution, and production packaging.
+
+The system orchestrates seven specialized role-playing agents—Product Manager, System Architect, Backend Developer, Frontend Developer, Code Reviewer, QA Engineer, and DevOps Agent—interfacing through Amazon Bedrock (Llama-3 models). 
+
+Major technical innovations implemented in this project include:
+1.  Double-Layer Purity Engine: Combines LLM prompt engineering with orchestrator-level parser tools (clean_code_block) that strip markdown backticks and conversational prose to ensure all saved code is 100% syntactically pure and compilable.
+2.  Auto-Deduplication Algorithm: A stream cleaning utility that intercepts tokens and filters duplicate import statements on-the-fly, preventing LLM repetition loop corruption.
+3.  Surgical Dynamic JSX Parser: Safely extracts the default component name export format (handling functions, classes, and variables) and rewrites port endpoints from port 8000 to 8080, enabling seamless client-server sandbox bindings.
+4.  Dual-Sandbox Execution Layer: Executes isolated background backend Uvicorn processes alongside in-browser Babel dynamic transpile wrappers.
+5.  Dual-Tab Launcher Dashboard: A sleek, glassmorphic React dashboard featuring a unified log stream, file manager, Monaco code workspace editor, and dual sandbox buttons allowing developers to test the live frontend or inspect the Swagger API Docs.
+
+Overall, the internship successfully demonstrated the practical application of Artificial Intelligence, Multi-Agent Systems, Database Management, and Full-Stack Web Development in solving real-world educational and industrial software automation challenges.
+
+----------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+*   Certificate
+*   Declaration
+*   Acknowledgement
+*   Abstract
+*   List of Figures
+*   Chapter 1: Introduction
+    *   1.1 Overview of AI in Software Engineering
+    *   1.2 Problem Statement & Limitations of Single-Agent LLMs
+    *   1.3 Project Goal & Key Objectives
+*   Chapter 2: About the Company
+    *   2.1 Brief History of Take It Smart
+    *   2.2 Core Product Sectors & Services
+    *   2.3 Internship Program Objectives
+*   Chapter 3: Tasks Performed
+    *   3.1 Full-Stack Development Tasks
+    *   3.2 Database & Database Modeling Tasks
+    *   3.3 Multi-Agent Systems & Bedrock Orchestration
+*   Chapter 4: Methodology
+    *   4.1 Core System Architecture & Design
+    *   4.2 Multi-Agent Orchestrator Pipeline
+    *   4.3 Database Schema & ORM Model Definition
+    *   4.4 Double-Layer Purity & Auto-Deduplication Logic
+    *   4.5 Dynamic Client-Side Compiler Iframe Flow
+*   Chapter 5: Implementation
+    *   5.1 Stage-by-Stage Implementation Steps
+        *   5.1.1 Stage 1: Idea Submission & Requirements Logging (PM)
+        *   5.1.2 Stage 2: Technical Specifications & Data Schemas (Architect)
+        *   5.1.3 Stage 3: Python FastAPI Backend Generation & Import Filtering (Backend Dev)
+        *   5.1.4 Stage 4: React JSX Frontend Design & Import Stripping (Frontend Dev)
+        *   5.1.5 Stage 5: Code Review, CORS, & Security Validation (Reviewer)
+        *   5.1.6 Stage 6: QA Integration Testing & Automated Test Cases (QA)
+        *   5.1.7 Stage 7: Subprocess Sandboxing & Live Port Bindings (8080)
+        *   5.1.8 Stage 8: Dynamic Iframe Rendering & Error Handling
+        *   5.1.9 Stage 9: Zip Workspace Packaging & Dockerization
+    *   5.2 System Requirements
+        *   5.2.1 Hardware Requirements
+        *   5.2.2 Software Requirements
+        *   5.2.3 Libraries and Packages Used
+*   Chapter 6: Screenshots & Live Demonstration
+*   Chapter 7: Reflection Notes
+    *   7.1 Technical Learnings
+    *   7.2 Professional & Non-Technical Outcomes
+*   Chapter 8: Conclusion
+
+----------------------------------------------------------------
+
+LIST OF FIGURES
+
+Figure 1: Conceptual Multi-Agent Orchestrator Pipeline (Page 14)
+Figure 2: Platform System Design & Subprocess Architecture (Page 15)
+Figure 3: Database Schema Entity Relationship Diagram (Page 17)
+Figure 4: Double-Layer Code Cleaning & Deduplication Pipeline (Page 19)
+Figure 5: Dynamic Client-Side Iframe Compiler Flowchart (Page 21)
+Figure 6: Platform Workspace Dashboard & Monaco Code Editor (Page 29)
+Figure 7: Multi-Agent Terminal Logs & Streaming SSE Output (Page 30)
+Figure 8: Interactive Sandboxed Frontend Application Preview (Page 31)
+Figure 9: FastAPI Interactive OpenAPI/Swagger API Docs Portal (Page 32)
+Figure 10: Dynamic Error Boundary Runtime Exception Overlay (Page 33)
+
+----------------------------------------------------------------
+
+CHAPTER 1: INTRODUCTION
+
+1.1 Overview of AI in Software Engineering
+The integration of Artificial Intelligence into software engineering has evolved rapidly from simple autocomplete utilities to complex generative systems capable of producing entire code blocks. Large Language Models (LLMs) trained on vast repositories of open-source code show remarkable proficiency in understanding natural language and translating it into syntactically valid programming structures in Python, JavaScript, SQL, HTML, and CSS. 
+
+However, writing individual code snippets represents only a small portion of the software development lifecycle. Building real-world, production-ready applications requires coordinated requirements gathering, architectural planning, interface design, security reviews, unit testing, and deployment orchestration.
+
+1.2 Problem Statement & Limitations of Single-Agent LLMs
+While modern LLMs can generate high-quality code, utilizing a single LLM agent to construct complete full-stack applications suffers from severe operational limitations:
+1.  Context Length Constraints: A single chat context quickly becomes bloated when storing backend routers, frontend screens, database classes, and testing suites. This leads to context decay, where the model forgets core system boundaries, leading to broken imports, database schema mismatches, and syntax errors.
+2.  Lack of Specialized Logic: A single general prompt forces the LLM to behave simultaneously as a designer, backend programmer, tester, and reviewer, which dilutes output quality.
+3.  Code Truncation: Large code files often hit the LLM generation length limit, resulting in half-written functions, unclosed brackets, and broken files.
+4.  Markdown/Conversational Noise: LLMs naturally wrap their outputs in explanatory paragraphs, introductions, and remarks. Directly saving this output into code files breaks the compiler or parser.
+
+1.3 Project Goal & Key Objectives
+The primary goal of this project is to develop the Multi-Agent AI Software Development Platform—a collaborative platform that partitions software engineering responsibilities among a cooperative team of intelligent, specialized AI agents. The key objectives are:
+*   Divide requirements gathering, database schema definition, API writing, interface layout, code review, unit testing, and packaging among seven distinct, cooperative agents.
+*   Enforce a Double-Layer Purity Engine to automatically extract and save raw, executable code by stripping markdown blocks, conversational noise, and repetitive imports.
+*   Configure a Dynamic Client-Side React Compiler that transpiles JSX dynamically in the browser using Babel CDN, linking it seamlessly with a sandboxed FastAPI backend.
+*   Incorporate a Dual-Sandbox runtime environment running FastAPI backends on port 8080 and compiled frontends in a dual-tab viewer (Frontend Preview vs. Swagger API Docs).
+*   Provide complete workspace packaging (comprising backends, frontends, unit tests, and Docker containers) for immediate execution.
+
+----------------------------------------------------------------
+
+CHAPTER 2: ABOUT THE COMPANY
+
+2.1 Brief History of Take It Smart
+Take It Smart (OPC) Pvt. Ltd. was established in the year 2018 in Bangalore, Karnataka, as a specialized engineering and software development consulting organization. It was officially registered as a private organization in the year 2021. The firm operates as a dual-channel developer: building in-house smart software products in data science and computer vision, and providing software services, mobile applications, and cloud-native solutions to industrial clients.
+
+2.2 Core Product Sectors & Services
+Take It Smart specializes in:
+*   Artificial Intelligence Solutions: Developing intelligent face recognition portals, predictive data analytics pipelines, and natural language interfaces.
+*   Web & Mobile Engineering: Building responsive full-stack applications, interactive data dashboards, and mobile utility applications.
+*   Industrial IoT & Embedded Systems: Constructing smart monitoring systems, automated camera controllers, and sensor network interfaces.
+*   Research & Mentorship: Mentoring undergraduate and graduate interns in engineering projects, cloud technologies, database modeling, and state-of-the-art deep learning architectures.
+
+2.3 Internship Program Objectives
+The AIML internship program at Take It Smart is designed to bridge the gap between academic theory and industry engineering practices. The objectives are to:
+*   Gain deep hands-on exposure to full-stack engineering frameworks like FastAPI, SQLAlchemy, SQLite, React, and Tailwind CSS.
+*   Understand advanced AI system orchestration using Bedrock SDK, prompt engineering, and FAISS vector databases.
+*   Implement production-grade practices like background subprocess tracking, dynamic error boundaries, CORS security configurations, and containerized deployment pipelines.
+
+----------------------------------------------------------------
+
+CHAPTER 3: TASKS PERFORMED
+
+During the internship at Take It Smart, I successfully completed the following engineering and implementation tasks:
+
+1.  FastAPI REST Architecture Engineering: Wrote the core application routing, SSE streaming generator helpers, dynamic sandbox runners, and export controllers.
+2.  SQLite Database Modeling: Designed the SQLite schema and configured SQLAlchemy ORM tables to manage projects and steps with cascade deletion logic.
+3.  Monaco Code Editor Configuration: Integrated @monaco-editor/react inside the React client workspace, configuring active tab tracking, dark themes, automatic layouts, and local save callbacks.
+4.  Babel Iframe Compiler Construction: Wrote the dynamic iframe wrapper that loads React 18, Babel Standalone, Axios, and Tailwind CSS, transpiling raw JSX inside the client browser.
+5.  Multi-Agent Orchestrator Core: Built the multi-agent orchestrator (SoftwareTeamOrchestrator) that drives step-by-step agent triggers and memory recall searches using FAISS.
+6.  Purity Engine & Deduplicator Implementation: Developed the code cleaning and import deduplication logic to sanitize LLM code outputs.
+7.  Process Sandboxing & Subprocess Control: Managed background Uvicorn servers using subprocess.Popen and implemented clean process killing via os.killpg.
+
+----------------------------------------------------------------
+
+CHAPTER 4: METHODOLOGY
+
+4.1 Core System Architecture & Design
+The Multi-Agent AI Software Development Platform is designed as a modular, decoupled full-stack platform. The architecture comprises a React Client Dashboard, a FastAPI Core Orchestrator API, a Local SQLite Transactional Database, and a Sandboxed Application Runtime (Port 8080).
+
+[IMAGE PLACEHOLDER: Figure 2 - Subprocess Architecture]
+Instructions: Insert a detailed software diagram showing user clients making API requests to port 8000 and the subprocess running the FastAPI application on port 8080.
+
+The system coordinates the user interface, backend server, database, and sandbox environment as follows:
+*   The React Client communicates with the FastAPI main server using standard REST calls and Server-Sent Events (SSE) for streaming text.
+*   The FastAPI main server manages data schemas via SQLAlchemy and stores project data in the SQLite database.
+*   The Bedrock Runtime is invoked dynamically at each stage, loading specific agent system prompts and querying the local FAISS vector store memory.
+*   When sandbox execution is triggered, the main server launches a child process using subprocess.Popen, running a background Uvicorn instance on port 8080.
+*   The React client renders an <iframe> targeting port 8080, mounting the compiled frontend dynamically.
+
+4.2 Multi-Agent Orchestrator Pipeline
+The software development process is divided into a structured pipeline driven by specialized AI agents:
+
+[IMAGE PLACEHOLDER: Figure 1 - Multi-Agent Pipeline]
+Instructions: Insert the agent communication diagram showing Product Manager requirements passing to Architect, code generated by Backend/Frontend Dev, and parsed by QA and DevOps agents.
+
+1.  Product Manager Agent: Accepts abstract user prompts (e.g., "Build a fitness tracker dashboard") and drafts detailed product requirements (PRD).
+2.  System Architect Agent: Processes the PRD and compiles a complete system architecture specification, defining relational data models and API paths.
+3.  Backend Developer Agent: Reads the architecture specifications and outputs pure FastAPI Python code, complete with CORS middlewares and in-memory mock data.
+4.  Frontend Developer Agent: Builds a fully responsive, Tailwind CSS-styled React single-page application based on the architecture specs.
+5.  Code Reviewer Agent: Audits the backend and frontend code for import accuracy, secure CORS parameters, and exception handling.
+6.  QA Engineer Agent: Writes a robust unit testing suite using pytest to validate all API endpoints.
+7.  DevOps Agent: Formulates the final packaging assets, creating Dockerfiles, dependency lists (requirements.txt), and automated start scripts.
+
+4.3 Database Schema & ORM Model Definition
+The platform uses SQLite as its metadata and state management storage engine. The data models are designed to enable transactional safety and support clean cascade deletions:
+
+[IMAGE PLACEHOLDER: Figure 3 - Entity Relationship Diagram]
+Instructions: Paste an ER Diagram showcasing the relational structure of "projects" table linked to the "project_steps" table with foreign keys.
+
+The relational tables are configured as follows:
+1.  projects table: Tracks project metadata and lifecycle state:
+    *   id (Integer, Primary Key, autoincrement)
+    *   name (String, Non-Nullable)
+    *   idea (Text, Non-Nullable)
+    *   model_id (String, Nullable)
+    *   temperature (Float, Default: 0.2)
+    *   status (String, Default: "created") - represents the active phase: created, requirements, architecture, code_backend, code_frontend, qa, or completed.
+    *   created_at (DateTime, Default: UTC Now)
+2.  project_steps table: Stores step-specific outputs with foreign key links and cascade deletion:
+    *   id (Integer, Primary Key, autoincrement)
+    *   project_id (Integer, Foreign Key linking to projects.id, cascade delete-orphan enabled)
+    *   step_name (String, Non-Nullable) - requirements, architecture, backend_code, frontend_code, review, tests, deployment
+    *   content (Text, Non-Nullable)
+    *   updated_at (DateTime, Default: UTC Now, onupdate: UTC Now)
+
+4.4 Double-Layer Purity & Auto-Deduplication Logic
+To prevent LLM conversational noise, markdown blocks, and import repetition loops from corrupting files, the platform implements a robust two-layer purity and auto-deduplication system:
+
+[IMAGE PLACEHOLDER: Figure 4 - Double-Layer Code Clean]
+Instructions: Paste a schematic flowchart highlighting Layer 1 (Prompt Constraint) and Layer 2 (Orchestrator clean_code_block parsing).
+
+Layer 1: Prompt Constraint
+All agent prompts are appended with a strict instruction:
+"CRITICAL OUTPUT RULE: Your response must consist EXCLUSIVELY of the code inside the code block. Do NOT write any introductory explanations, conversational prefaces, or concluding descriptions before or after the code block. It must start directly with the markdown code block and end directly with the closing backticks."
+
+Layer 2: Orchestrator Purity & Import Deduplication
+When the stream finishes, save_step_content automatically passes the text to clean_code_block(). It splits away any external text, extracts the raw content inside the markdown backticks, and performs an O(N) deduplication sweep to keep exactly one copy of each unique import declaration at the top of the file.
+
+4.5 Dynamic Client-Side Compiler Iframe Flow
+To compile and preview React components inside the browser without requiring external build pipelines (Vite/webpack), the system uses an in-browser compilation workflow inside the client-side dashboard:
+
+[IMAGE PLACEHOLDER: Figure 5 - Dynamic Iframe Compiler]
+Instructions: Insert a flowchart detailing components reading code -> regex component match -> Babel dynamic transpile -> HTML mounting.
+
+1.  Read Step: The client reads the frontend_code from the selected project steps.
+2.  Surgical Component Name Matching: The dynamic compiler extracts the React component name from export default statements, resolving functions, classes, and variables safely.
+3.  Strip Exports & Imports: Removes ES6 block imports and export default statements to prevent browser errors.
+4.  Rewrite Port Endpoints: Dynamically replaces all instances of http://localhost:8000 or 127.0.0.1:8000 with http://localhost:8080 to route backend API requests to the active sandbox backend.
+5.  Compile with Babel: Mounts React 18, Babel Standalone, Axios, and Tailwind CSS. Babel transpiles the JSX in real-time, wraps the component inside an ErrorBoundary, and mounts it to document.getElementById('root').
+
+----------------------------------------------------------------
+
+CHAPTER 5: IMPLEMENTATION
+
+5.1 Stage-by-Stage Implementation Steps
+
+The implementation of the Multi-Agent AI Software Development Platform is carried out in nine highly structured, sequential stages, coordinating specialized agents to guarantee the delivery of syntactically pure, compiled full-stack applications.
+
+5.1.1 Stage 1: Idea Submission & Requirements Logging (PM Stage)
+The implementation lifecycle begins when the user submits an abstract, high-level project idea (e.g., "A real-time cryptocurrency dashboard with visual charts and transaction simulator") through the React SPA interface. Upon submission, the FastAPI backend intercepts the payload and creates a new project record in the SQLite database under the `projects` table, assigning it a status of "created" and initializing transactional timestamps. 
+The system then invokes the `stream_requirements` function inside the `SoftwareTeamOrchestrator`. This launches a Server-Sent Events (SSE) streaming thread powered by the specialized Product Manager (PM) Agent using Amazon Bedrock (Llama-3). The PM Agent is guided by a rigorous system prompt instructing it to behave as an expert Scrum Master and Business Analyst. 
+The PM Agent parses the raw, abstract user idea and compiles it into a formal, highly detailed Product Requirements Document (PRD). The generated PRD is structured into functional chapters: 
+1. Project Scope & Vision: Defines the core value proposition and abstract objectives.
+2. User Persona Analysis: Outlines the end-user behaviors and requirements.
+3. Detailed Functional Specifications: Logs the exhaustive checklist of user interface views, input forms, dynamic data displays, and interactive elements.
+4. Out-of-Scope Definitions: Explicitly demarcates what will not be built to prevent scope creep during subsequent agent cycles.
+As the Bedrock model streams back tokens, the main API server captures the stream in real-time, forwarding it to the client via an SSE text generator helper, and saves the final, complete PRD block inside the `project_steps` table under the step name "requirements".
+
+5.1.2 Stage 2: Technical Specifications & Data Schemas (Architect Stage)
+Once the requirements specification is successfully logged, the orchestrator triggers the `stream_architecture` step. The System Architect Agent is invoked, taking the freshly generated requirements PRD as its primary input context. The Architect Agent's role is to act as a Principal Lead Software Architect, converting the functional "what" of the PM's PRD into the concrete "how" of technical execution.
+The Architect Agent designs a complete full-stack technical layout, outputting a comprehensive technical specification file. This architectural output is divided into three major architectural elements:
+1. Data Model Layout: Formulates clean database schemas (in SQLite/PostgreSQL formats), listing out relational table layouts, Primary/Foreign keys, and Cascade deletion rules.
+2. RESTful API Specifications: Outlines the exact endpoint routers, specifying query parameters, request payloads, response bodies, and error response schemas (e.g., standard HTTP 400/404/500 JSON bodies).
+3. Component Separation Strategy: Defines the structural separation of backend and frontend components, listing exactly how inputs and tables will communicate over cross-origin HTTP bridges.
+This exhaustive technical blueprint is written to the database under the step name "architecture", acting as the mandatory structural contract that subsequent coding agents must follow without deviation.
+
+5.1.3 Stage 3: Python FastAPI Backend Generation & Import Filtering (Backend Dev Stage)
+With the technical blueprint locked, the `stream_backend` function triggers the Backend Developer Agent. This agent is specifically instructed to operate as a Senior Python Developer with expert knowledge of FastAPI, SQLAlchemy, and asynchronous database adapters. 
+The Backend Developer Agent reads the system architecture specification and outputs a fully functional, single-file Python FastAPI server. The generated code must contain:
+1. Database Setup: Standard SQLite configurations using SQLAlchemy ORM, including session helpers, table definitions, and local db initialization.
+2. REST Routers: Asynchronous path handlers (`@app.get`, `@app.post`) wrapping core transaction controllers in try-except statements with clear HTTPExceptions.
+3. In-Memory Mock Seeders: Seed records that populate the database dynamically upon launch to allow immediate testing without requiring prior user inputs.
+4. CORS Middleware: Configured with `allow_origins=["*"]` to ensure cross-origin browsers can query the endpoints without safety blocking.
+During streaming, the orchestrator intercepts the Bedrock tokens. Once completed, the raw text is run through the Double-Layer Purity Engine (`clean_code_block`). This engine extracts the raw Python code within markdown backticks, discarding conversational noise. It then executes an O(N) deduplication loop that parses every line starting with `import` or `from`, keeping only the first declaration of each unique module, thereby preventing Bedrock repetition loops from corrupting the file. The final, pure python code is saved in the database under "backend_code".
+
+5.1.4 Stage 4: React JSX Frontend Design & Import Stripping (Frontend Dev Stage)
+Simultaneously, the Frontend Developer Agent is triggered via `stream_frontend` to design the user interface. Guided by the system prompt of a Lead UX/UI Designer and Senior React Engineer, the agent reads the system architecture specification and designs a complete, single-file React component.
+The generated React component is built using Tailwind CSS utility classes, providing vibrant, responsive, and modern glassmorphic designs. Key engineering requirements of this stage include:
+1. State Management: Declares interactive React state hooks (`useState`, `useEffect`) to track input fields, list arrays, active tables, loading indicators, and error overlays.
+2. Axios Bridge: Incorporates HTTP requests using Axios, calling backend API routers. Crucially, the endpoints are mapped to call the backend sandbox.
+3. Clean Layout: Structured using grid layouts, sidebars, charts, and clean input forms.
+The raw JSX stream is intercepted by the orchestrator, sanitized of conversational text via the Purity Engine, and stored in the database under "frontend_code".
+
+5.1.5 Stage 5: Code Review, CORS, & Security Validation (Reviewer Stage)
+Before any code can be deployed to the active sandbox, it must pass a strict security and syntax audit conducted by the Code Reviewer Agent. The Reviewer Agent acts as a Senior Security Engineer and Principal Code Auditor, reviewing the backend and frontend code in unison.
+The Code Reviewer verifies:
+1. Endpoint Syntax: Ensures that all backend paths match the designed architecture and contain no half-written, truncated segments.
+2. Import Consistency: Verifies that every module used is correctly imported at the top of the file, with absolutely no missing declarations.
+3. CORS Settings: Asserts that CORS middleware is present and allows cross-origin requests.
+4. UI Safety Hooks: Confirms that frontend React state variables are properly initialized and contains no broken loops.
+If any issues are found, the Reviewer outputs detailed correction suggestions. If the code is verified, it passes to the next phase, saving the audit report under "review".
+
+5.1.6 Stage 6: QA Integration Testing & Automated Test Cases (QA Stage)
+The QA Engineer Agent is launched to construct a complete, automated integration test suite. Acting as a Lead QA Automation Engineer, it reads the backend code and generates a robust `test_main.py` test suite powered by `pytest`.
+The test script is written to execute against the active endpoints, containing:
+1. Endpoint Validation: Tests covering GET, POST, PUT, and DELETE operations.
+2. Status Assertions: Explicitly asserts HTTP response status codes (e.g., verifying `response.status_code == 200` or `201`).
+3. Payload Verification: Asserts that keys and data structures in the JSON responses match the designed data schemas.
+The test code is parsed, sanitized, and stored under the step name "tests", providing developers with an instant mechanism to execute regression tests.
+
+5.1.7 Stage 7: Subprocess Sandboxing & Live Port Bindings (8080)
+When the user clicks the "⚡ Run Sandbox App" button, the main FastAPI orchestrator executes the background sandboxing sequence:
+1. File Committal: The orchestrator retrieves the compiled "backend_code" step content and writes it directly to a local file `app/sandbox_app.py` in the workspace.
+2. Subprocess Spawning: The orchestrator launches a separate background process using Python's `subprocess.Popen` module:
+   ```python
+   cmd = [sys.executable, "-m", "uvicorn", "app.sandbox_app:app", "--host", "0.0.0.0", "--port", "8080"]
+   proc = subprocess.Popen(cmd, preexec_fn=os.setsid, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+   ```
+   Setting `preexec_fn=os.setsid` creates a separate process group, allowing the orchestrator to track the background Uvicorn server as an isolated sandbox instance.
+3. PID Mapping: The process ID (PID) is logged in the orchestrator's `active_sandboxes` dictionary, mapped by the unique project ID.
+4. Clean Termination: When a project is stopped or modified, the orchestrator issues a clean kill signal to the entire process group:
+   ```python
+   os.killpg(os.getpgid(proc.pid), signal.SIGTERM)
+   ```
+   This ensures that no leaked background python processes are left running on port 8080, keeping the port completely free.
+
+5.1.8 Stage 8: Dynamic Iframe Rendering & Error Handling
+In the client React SPA dashboard, clicking the sandbox button mounts an `<iframe>` targeting `http://localhost:8080/preview`. The dynamic compiler layer compiles the React frontend code inside the browser on-the-fly:
+1. Code Extraction: Retrieves the React JSX code from step "frontend_code".
+2. Default Export Parser: Runs a surgical regex sweep to identify the exact name of the component marked as default export, handling variations like `export default function App()`, `export default class App`, or `export default App`.
+3. Import Clean: Strips away ES6 imports (`import React from 'react'`) and `export default` lines to prevent browser compilation exceptions.
+4. Port Override: Overrides port bindings dynamically, converting all backend endpoint references from port 8000 to port 8080.
+5. Babel CDN Transpilation: Babel Standalone CDN is loaded inside the iframe to transpile raw JSX into plain ES5 Javascript in real-time.
+6. Error Boundary Isolation: Wraps the compiled component inside a React `<ErrorBoundary>` wrapper before mounting it to the DOM. If any runtime exception occurs, the Error Boundary intercepts it, preventing the iframe from rendering a blank page, and displays a sleek glassmorphic overlay containing the exception name and debugging tips.
+
+5.1.9 Stage 9: Zip Workspace Packaging & Dockerization
+The final stage of the platform involves exporting the fully functional application as a portable, standalone production package. When the user clicks "Export", the backend constructs an in-memory ZIP archive with the following production structures:
+1. `backend/main.py`: The pure, auto-deduplicated FastAPI code.
+2. `frontend/App.jsx`: The clean, Tailwind CSS-styled React Single Page Application.
+3. `tests/test_main.py`: The pytest integration test suite.
+4. `backend/requirements.txt`: Outlines the mandatory Python dependencies (fastapi, uvicorn, sqlalchemy, pydantic).
+5. `backend/Dockerfile`: A Docker build file to containerize the FastAPI backend server:
+   ```dockerfile
+   FROM python:3.10-slim
+   WORKDIR /app
+   COPY requirements.txt .
+   RUN pip install --no-cache-dir -r requirements.txt
+   COPY main.py .
+   EXPOSE 8080
+   CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
+   ```
+6. `docker-compose.yml`: Binds the backend container with a multi-stage Nginx static file container hosting the compiled React build.
+7. `start.sh`: A shell script allowing the developer to spin up the entire Docker stack with a single command.
+
+5.2 System Requirements
+
+The platform is designed to operate efficiently under standard local development hardware and software configurations.
+
+5.2.1 Hardware Requirements
+* Processor: Dual-Core Intel Core i5 / AMD Ryzen 5 or higher (Quad-Core recommended to support concurrent Bedrock SSE threads and Uvicorn background subprocesses).
+* RAM: 8 GB minimum (16 GB highly recommended to accommodate simultaneous node dev servers, python runtimes, and local browser execution).
+* Storage: 5 GB free SSD space (to host project files, sqlite databases, and HuggingFace SentenceTransformer local embedding models).
+* Network: Stable, high-speed internet connection (mandatory for querying Amazon Bedrock models and loading browser-side CDNs like Babel, Axios, and Tailwind).
+
+5.2.2 Software Requirements
+* Operating System: Linux (Ubuntu 20.04+, Debian 11+ recommended), macOS, or Windows 10/11 with WSL2 configured.
+* Python Environment: Python 3.10+ installed with Poetry package manager for isolating orchestrator and sandbox dependencies.
+* JavaScript Environment: Node.js 18+ and npm installed for hosting the React SPA Vite development server.
+* Database: SQLite3 (pre-installed in Python runtime environments).
+* Containers: Docker and Docker Compose (optional, for running exported workspace docker configurations).
+
+5.2.3 Libraries and Packages Used
+The system relies on a curated stack of modern libraries to coordinate agent logic and backend transactions:
+* FastAPI (v0.100.0+): Powers the main orchestrator REST API and handles streaming Server-Sent Events (SSE).
+* Uvicorn (v0.22.0+): The high-performance ASGI server driving both the main orchestrator and the sandboxed instances.
+* SQLAlchemy ORM (v2.0.0+): Maps Python classes to SQLite tables, enforcing cascading deletions and transaction safety.
+* Boto3 SDK (v1.28.0+): Connects to Amazon Web Services to query Bedrock models with low-latency streaming configurations.
+* FAISS-cpu (v1.7.4) & LangChain Community: Manages high-performance vector semantic search for agent memory recall.
+* Sentence-Transformers: Loads local embedding models (sentence-transformers/all-MiniLM-L6-v2) to generate vector representations of agent logs.
+* Monaco Editor React (@monaco-editor/react): Renders the professional code editor inside the web dashboard.
+* Babel Standalone (v7.22.0+): Loaded dynamically via browser CDN to compile React JSX code on-the-fly.
+
+----------------------------------------------------------------------------------------
+
+CHAPTER 6: SCREENSHOTS & LIVE DEMONSTRATION
+
+[IMAGE PLACEHOLDER: Figure 6 - Platform Workspace UI]
+Instructions: Paste a screenshot of the main React SPA workspace showing Monaco Editor and project files list.
+
+[IMAGE PLACEHOLDER: Figure 7 - Streaming SSE Logs]
+Instructions: Paste a screenshot of the SSE dynamic log terminal running Product Manager and Architect agent steps.
+
+[IMAGE PLACEHOLDER: Figure 8 - Sandboxed Frontend App]
+Instructions: Paste a screenshot of the compiled sandbox application running dynamically in the iframe tab.
+
+[IMAGE PLACEHOLDER: Figure 9 - Swagger OpenAPI Portal]
+Instructions: Paste a screenshot of the Swagger UI docs running on port 8080/docs.
+
+[IMAGE PLACEHOLDER: Figure 10 - Runtime Error Boundary]
+Instructions: Paste a screenshot of the dynamic Glassmorphism React Error boundary showing a debugging tip.
+
+6.2 Comprehensive Walkthrough and Live System Walkthrough Analysis
+
+The visual captures illustrated in Figures 6 through 10 represent the core operational milestones of the stateful Multi-Agent AI Software Development Platform. Together, they demonstrate how a high-level natural language specification transitions into a fully compiled, sandboxed, and testable full-stack application. To appreciate the engineering rigor of the platform, it is necessary to examine the technical processes occurring behind each interface layer during a live project run. This system bridges the gap between high-level abstract user ideas and functional, compiled code bases through a highly coordinated orchestration pipeline.
+
+The primary user interface consists of a unified, high-performance workspace dashboard specifically designed to maximize developer productivity and ease of access. As captured in the main workspace view, the left panel houses a dynamic project history list and an active project file explorer, while the center displays a full-screen instance of the professional Monaco Editor. When a developer selects a project, the client automatically loads its current directory structure and file contents directly from the relational database. The Monaco Editor is configured in a premium, high-contrast light theme, creating an ultra-clean, highly legible coding interface that is fully reactive.
+
+Developers can directly modify the generated React components or FastAPI endpoints inside the workspace editor, with all edits tracked in real-time by a state manager. These modifications are captured and immediately saved back to the SQLite project step database via PUT requests to the API step endpoint. This bidirectional synchronization ensures that the dynamic backend compiler and review steps always work with the latest developer modifications. By tracking the agent state alongside source code, the file explorer refreshes dynamically as the pipeline completes its requirements, architecture, and code phases.
+
+Behind the user interface is the AWS Bedrock Orchestrator, which coordinates a series of specialized role-playing agents in a strict structural sequence. The Product Manager Agent first conducts requirements analysis to generate detailed user stories, followed by the Architect Agent who defines system structures and endpoint specs. Once these structural blueprints are finalized, the Developer Agents write the backend and frontend codebases. This modular separation of concerns ensures that the LLM code generator remains highly focused and avoids the output noise common in general single-agent models.
+
+This multi-stage collaborative execution is visible to the developer through a real-time Server-Sent Events log console that acts as a live terminal displaying system outputs. The logging pipeline is built using FastAPI's StreamingResponse, which streams prompt segments, agent thoughts, and code outputs as they are emitted from AWS Bedrock. To maintain high legibility, a custom React log parser parses these text streams, using a helper to translate raw low-contrast terminal styling tags into high-contrast light mode badges. This real-time visibility enables developers to monitor the exact reasoning process of the Product Manager and Architect agents.
+
+Once the Frontend Developer agent generates the React application code, the user can immediately run and preview the application in a sandboxed preview environment. When the user launches the sandbox, the client opens a standalone browser tab containing a standalone React workspace that dynamically loads Babel Standalone via a browser CDN. The client retrieves the raw frontend JSX code from the database and compiles it on-the-fly directly inside the browser. It then injects this compiled Javascript into a secure iframe document, rendering the compiled client application.
+
+The dynamic React client is pre-wired to communicate with the sandboxed FastAPI backend on the fly. During the compilation step, the backend dynamically parses the frontend code and replaces any requests pointing to the default backend port with the sandboxed API port. As a result, when the user interacts with buttons, sliders, or inputs in the compiled React preview iframe, the web application makes real, live REST calls directly to the local sandboxed API. This setup provides a true full-stack sandboxed execution environment that is entirely isolated from the main platform.
+
+In parallel with the React frontend, the platform spins up an isolated backend daemon running a standalone FastAPI application on port eighty-eighty using uvicorn. Spawning this background subprocess requires a robust isolation and cleaning pipeline. When a project run event is triggered, the FastAPI server writes the clean backend code step contents into the sandbox app file. To prevent process leaks and port conflicts, the orchestrator registers the newly created subprocess, calls a system-level force kill on Linux platforms to free lingering ports, and spawns the uvicorn subprocess using a session group ID to allow clean group terminations.
+
+To guarantee that the generated FastAPI application starts up without import errors, the platform executes a dynamic code-cleaning filter. If the LLM generates a redundant import statement that conflicts with the main database module, the backend automatically filters out the redundant statement right before writing to disk. Furthermore, core database dependencies like pymongo and dnspython are installed in the poetry virtualenv to handle database interactions such as MongoDB storage for the BMI Calculator. The Swagger page is then served at the docs endpoint inside the interactive iframe tab, allowing the developer to test all REST endpoints manually.
+
+A major challenge in automated code execution is handling syntax or runtime errors gracefully without crashing the parent dashboard. To prevent this, the sandbox client is wrapped in a robust, custom React Error Boundary. If Babel transpilation fails or a component throws a mounting exception, the boundary intercepts the error and displays a premium, glassmorphic diagnostic interface. This portal prints the exact Babel compilation message, line numbers, and error call stack in a readable format, dynamically analyzing the traceback to provide targeted debugging recommendations.
+
+----------------------------------------------------------------
+
+CHAPTER 7: REFLECTION NOTES
+
+7.1 Technical Learnings
+During this internship, I gained valuable practical knowledge in:
+1.  Multi-Agent Collaborative Design: Designing modular agent structures where each agent has specialized instructions and system prompts, which significantly improves code generation quality compared to general single-agent models.
+2.  Robust Code Cleaning Pipelines: Implementing double-layered code sanitation filters (clean_code_block) inside the orchestrator is critical when developing code generation tools, as it prevents conversational noise and formatting anomalies from breaking compilation.
+3.  Isolated Background Process Management: Spawning, tracking, and cleanly terminating independent background processes via Python's subprocess.Popen and os.killpg prevents process leaks and port conflicts in multi-project sandboxed environments.
+4.  Babel dynamic transpilation: Configuring in-browser JSX transpilation using Babel Standalone allows developers to test React UIs dynamically without complex web build chains.
+5.  Secure CORS Configurations: Configuring robust CORS settings in backend and review steps is essential to enable secure cross-origin communication between the dynamic frontend and the sandboxed APIs.
+
+7.2 Professional & Non-Technical Outcomes
+Apart from core engineering competencies, the internship contributed to:
+*   Analytical Thinking: Investigating blank iframe screens in a sandboxed runtime requires checking console errors, Babel compiler states, CORS setups, and regex matches systematically.
+*   Time Management & Prioritization: Completing complex, multi-stage engineering tasks within strict project deadlines highlighted the importance of project planning and step-by-step progress tracking.
+*   Technical Documentation & Presentation: Presenting system designs, data models, and workflow diagrams during code reviews significantly improved my technical writing and verbal communication skills.
+
+----------------------------------------------------------------
+
+CHAPTER 8: CONCLUSION
+
+The Multi-Agent AI Software Development Platform successfully demonstrates the power of collaborative AI engineering. By combining specialized role-playing agents, robust code cleaning pipelines, real-time background sandboxing, and dynamic in-browser React compilation, the platform bridges the gap between abstract user ideas and fully working full-stack applications.
+
+The successful implementation of this platform proves that multi-agent systems are highly capable of automating complex, multi-stage software engineering lifecycles. It represents a significant step forward in automated prototyping, educational sandboxing, and intelligent full-stack software development workflows.

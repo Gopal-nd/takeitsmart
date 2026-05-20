@@ -104,13 +104,9 @@ MODEL_ID=your_bedrock_model
 ________________________________________
 Running the Application
 
-Start Backend
+Simply execute the main starter script to spin up both the FastAPI backend and React + Tailwind CSS v4 frontend parallelly:
 
-uvicorn app.main:app --reload
-
-Start Frontend
-
-streamlit run ui/streamlit_app.py
+./start.sh
 ________________________________________
 Usage
 
@@ -136,5 +132,4 @@ How It Works
 
 
 
-Start backend: poetry run uvicorn app.main:app --reload
-Start frontend: streamlit run ui/streamlit_app.py
+Start both backend & React frontend services: ./start.sh

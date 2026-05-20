@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cyber-dark: #0B0F19;
+  --color-cyber-card: rgba(17, 24, 39, 0.7);
+  --color-cyber-accent: #6366F1;
+  --color-cyber-neonCyan: #06B6D4;
+  --color-cyber-neonPurple: #A855F7;
+  --color-cyber-neonGreen: #10B981;
+  --color-cyber-border: rgba(55, 65, 81, 0.3);
+  
+  --shadow-glow-indigo: 0 0 15px rgba(99, 102, 241, 0.4);
+  --shadow-glow-cyan: 0 0 15px rgba(6, 182, 212, 0.4);
+  --shadow-glow-purple: 0 0 15px rgba(168, 85, 247, 0.4);
+  --shadow-glow-green: 0 0 15px rgba(16, 185, 129, 0.4);
+
+  --font-sans: 'Outfit', 'Inter', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F8FAFC] text-slate-700 font-sans antialiased overflow-x-hidden;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.03) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(168, 85, 247, 0.03) 0px, transparent 50%),
+      radial-gradient(at 50% 0%, rgba(6, 182, 212, 0.02) 0px, transparent 50%);
+  }
+
+  /* Custom Scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-100/60;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 rounded-full hover:bg-slate-400 transition-colors;
+  }
+}
+
+/* Glassmorphism Styles using Tailwind CSS v4 @utility directive */
+@utility glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+@utility glass-panel-glow-indigo {
+  @apply glass-panel shadow-sm;
+  border-color: rgba(99, 102, 241, 0.2);
+}
+
+@utility glass-panel-glow-cyan {
+  @apply glass-panel shadow-sm;
+  border-color: rgba(6, 182, 212, 0.2);
+}
+
+@utility glass-panel-glow-purple {
+  @apply glass-panel shadow-sm;
+  border-color: rgba(168, 85, 247, 0.2);
+}
+
+/* Cyber Terminal Styling */
+@utility terminal-screen {
+  background: #f8fafc;
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+}
+
+/* Custom Text Gradients */
+@utility text-gradient-cyan-indigo {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-600 via-indigo-600 to-purple-600;
+}
+
+@utility text-gradient-purple-rose {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-600 via-pink-600 to-rose-600;
+}
+
+/* Active agent glow animation */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.8), 0 0 10px rgba(6, 182, 212, 0.3);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s infinite ease-in-out;
+}

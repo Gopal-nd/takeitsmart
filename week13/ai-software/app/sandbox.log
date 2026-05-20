@@ -1,0 +1,18 @@
+INFO:     Started server process [320459]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0INFO:     127.0.0.1:40190 - "GET /calculateBMI?height=1.75&weight=70 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40298 - "GET /docs HTTP/1.1" 200 OK
+/home/gopal/takeitsmart/.venv/lib/python3.14/site-packages/fastapi/openapi/utils.py:252: UserWarning: Duplicate Operation ID calculate_bmi_route_calculateBMI_get for function calculate_bmi_route at /home/gopal/takeitsmart/week13/ai-software/app/sandbox_app.py
+  warnings.warn(message, stacklevel=1)
+/home/gopal/takeitsmart/.venv/lib/python3.14/site-packages/fastapi/openapi/utils.py:252: UserWarning: Duplicate Operation ID set_goal_route_setGoal_post for function set_goal_route at /home/gopal/takeitsmart/week13/ai-software/app/sandbox_app.py
+  warnings.warn(message, stacklevel=1)
+/home/gopal/takeitsmart/.venv/lib/python3.14/site-packages/fastapi/openapi/utils.py:252: UserWarning: Duplicate Operation ID track_progress_route_trackProgress_get for function track_progress_route at /home/gopal/takeitsmart/week13/ai-software/app/sandbox_app.py
+  warnings.warn(message, stacklevel=1)
+/home/gopal/takeitsmart/.venv/lib/python3.14/site-packages/fastapi/openapi/utils.py:252: UserWarning: Duplicate Operation ID get_progress_history_route_getProgressHistory_get for function get_progress_history_route at /home/gopal/takeitsmart/week13/ai-software/app/sandbox_app.py
+  warnings.warn(message, stacklevel=1)
+/home/gopal/takeitsmart/.venv/lib/python3.14/site-packages/fastapi/openapi/utils.py:252: UserWarning: Duplicate Operation ID send_reminders_route_reminders_post for function send_reminders_route at /home/gopal/takeitsmart/week13/ai-software/app/sandbox_app.py
+  warnings.warn(message, stacklevel=1)
+INFO:     127.0.0.1:40298 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54336 - "GET /calculateBMI?height=1.75&weight=70 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57696 - "GET /calculateBMI?height=1.75&weight=70 HTTP/1.1" 200 OK
